@@ -1,0 +1,460 @@
+{
+	"site": {
+		"header": {
+			"title": "Catálogo",
+			"subtitle": "Productos de calidad para su negocio"
+		},
+		"content": {
+			"categorias": [
+				{
+					"name": "Plásticos",
+					"colors": {
+						"primary": "bg-blue-600",
+						"secondary": "bg-blue-400",
+						"text-bg": "bg-blue-100",
+						"text-primary": "text-blue-600"
+					},
+					"subcategorias": [
+						{
+							"name": "Bolsas",
+							"productos": [
+								{
+									"id": 1,
+									"nombre": "Bolsa Camiseta Mini",
+									"descripcion": "Tamaño compacto para compras pequeñas",
+									"precio": 650,
+									"caracteristicas": [
+										"Tamaño: 28 x 35 cm",
+										"Tipo: Camiseta",
+										"Ideal para compras pequeñas"
+									],
+									"imagen": "https://placehold.com/400x300?text=Camiseta+Mini"
+								},
+								{
+									"id": 2,
+									"nombre": "Bolsa Camiseta Mediana",
+									"descripcion": "Tamaño estándar para uso diario",
+									"precio": 750,
+									"caracteristicas": [
+										"Tamaño: 35 x 40 cm",
+										"Tipo: Camiseta",
+										"Uso diario estándar"
+									],
+									"imagen": "https://placehold.com/400x300?text=Camiseta+Mediana"
+								},
+								{
+									"id": 3,
+									"nombre": "Bolsa Camiseta Grande",
+									"descripcion": "Tamaño grande para mayor capacidad",
+									"precio": 1300,
+									"caracteristicas": [
+										"Tamaño: 40 x 50 cm",
+										"Tipo: Camiseta",
+										"Mayor capacidad de carga"
+									],
+									"imagen": "https://placehold.com/400x300?text=Camiseta+Grande"
+								},
+								{
+									"id": 4,
+									"nombre": "Bolsa Camiseta Jumbo",
+									"descripcion": "Tamaño extra grande para cargas pesadas",
+									"precio": 2300,
+									"caracteristicas": [
+										"Tamaño: 50 x 60 cm",
+										"Tipo: Camiseta",
+										"Ideal para cargas pesadas y voluminosas"
+									],
+									"imagen": "https://placehold.com/400x300?text=Camiseta+Jumbo"
+								},
+								{
+									"id": 5,
+									"nombre": "Rollo Pull Pack",
+									"descripcion": "Sistema de rollo continuo",
+									"precio": 7000,
+									"caracteristicas": [
+										"Cantidad: 700 unidades",
+										"Tipo: Rollo continuo"
+									],
+									"imagen": "https://placehold.com/400x300?text=Rollo+Pull+Pack"
+								},
+								{
+									"id": 6,
+									"nombre": "Botillera",
+									"descripcion": "Para bebidas y botellas",
+									"precio": 2500,
+									"caracteristicas": [
+										"Cantidad: 100 unidades",
+										"Uso: Bebidas y botellas"
+									],
+									"imagen": "https://placehold.com/400x300?text=Botillera"
+								},
+								{
+									"id": 7,
+									"nombre": "Bolsa para Ensaladas",
+									"descripcion": "Ideal para alimentos frescos",
+									"precio": 900,
+									"caracteristicas": [
+										"Tamaño: 15 x 20 cm",
+										"Cantidad: 100 unidades por paquete",
+										"Ideal para ensaladas y alimentos frescos"
+									],
+									"imagen": "https://placehold.com/400x300?text=Bolsa+Ensaladas"
+								},
+								{
+									"id": 8,
+									"nombre": "Bolsa Taco Manga",
+									"descripcion": "Manga con 10 paquetes de 100 unidades",
+									"precio": 4500,
+									"precio_unitario": 500,
+									"caracteristicas": [
+										"Presentación: Manga de 10 paquetes",
+										"Cada paquete: 100 unidades",
+										"Precio por paquete: $500",
+										"Valor manga completa: $4.500 (10 × $500)",
+										"Total: 1.000 unidades por manga"
+									],
+									"imagen": "https://placehold.com/400x300?text=Bolsa+Taco+Manga"
+								}
+							]
+						},
+						{
+							"name": "Vasos",
+							"productos": [
+								{
+									"id": 10,
+									"nombre": "Vaso 300cc",
+									"descripcion": "Económico y resistente",
+									"precio": 600,
+									"caracteristicas": [
+										"Cantidad: 100 unidades",
+										"Material: Polietileno"
+									],
+									"imagen": "https://placehold.com/400x300?text=Vaso+Polietileno"
+								},
+								{
+									"id": 11,
+									"nombre": "Guante Vinilo TM/TL",
+									"descripcion": "Tamaño mediano/grande",
+									"precio": 3900,
+									"caracteristicas": [
+										"Cantidad: 100 unidades",
+										"Material: Vinilo",
+										"Tamaño: Mediano/Grande"
+									],
+									"imagen": "https://placehold.com/400x300?text=Vaso+Vinilo"
+								},
+								{
+									"id": 12,
+									"nombre": "Vaso 500cc",
+									"descripcion": "Presentación compacta",
+									"precio": 1300,
+									"caracteristicas": [
+										"Cantidad: 50 unidades",
+										"Tamaño: Grande"
+									],
+									"imagen": "https://placehold.com/400x300?text=Vaso+Pequeno"
+								},
+								{
+									"id": 13,
+									"nombre": "Vaso Premium",
+									"descripcion": "Calidad superior",
+									"precio": 1300,
+									"caracteristicas": [
+										"Cantidad: 25 unidades",
+										"Calidad: Premium"
+									],
+									"imagen": "https://placehold.com/400x300?text=Vaso+Premium"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Perfumería",
+					"colors": {
+						"primary": "bg-pink-600",
+						"secondary": "bg-pink-400",
+						"text-bg": "bg-pink-100",
+						"text-primary": "text-pink-600"
+					},
+					"subcategorias": [
+						{
+							"name": "General",
+							"productos": [
+								{
+									"id": 14,
+									"nombre": "Maquina de afeitar Wilkinson",
+									"descripcion": "Tira con 12 Unidades",
+									"precio": 6000,
+									"precio_unitario": 500,
+									"caracteristicas": [
+										"Formato: Pack x12",
+										"2 Hoja en 1 cabezal",
+										"Desechable"
+									],
+									"imagen": "https://placehold.com/400x300?text=Perfumeria+1"
+								},
+								{
+									"id": 15,
+									"nombre": "Maquina de afeitar ",
+									"descripcion": "Calidad premium",
+									"precio": 880,
+									"caracteristicas": [
+										"Formato: Pack x12",
+										"Calidad: Premium"
+									],
+									"imagen": "https://placehold.com/400x300?text=Perfumeria+2"
+								},
+								{
+									"id": 16,
+									"nombre": "Producto Perfumería 3",
+									"descripcion": "Tamaño 750ml",
+									"precio": 890,
+									"caracteristicas": [
+										"Formato: Pack x14",
+										"Tamaño: 750ml"
+									],
+									"imagen": "https://placehold.com/400x300?text=Perfumeria+3"
+								},
+								{
+									"id": 17,
+									"nombre": "Producto Perfumería 4",
+									"descripcion": "Presentación estándar",
+									"precio": 700,
+									"caracteristicas": [
+										"Cantidad: 3 unidades"
+									],
+									"imagen": "https://placehold.com/400x300?text=Perfumeria+4"
+								},
+								{
+									"id": 18,
+									"nombre": "Producto Perfumería 5",
+									"descripcion": "Formato grande",
+									"precio": 1000,
+									"caracteristicas": [
+										"Cantidad: 1 unidad",
+										"Tamaño: Grande"
+									],
+									"imagen": "https://placehold.com/400x300?text=Perfumeria+5"
+								},
+								{
+									"id": 19,
+									"nombre": "Producto Perfumería 6",
+									"descripcion": "Tamaño mediano",
+									"precio": 350,
+									"caracteristicas": [
+										"Formato: Pack x13",
+										"Tamaño: Mediano"
+									],
+									"imagen": "https://placehold.com/400x300?text=Perfumeria+6"
+								},
+								{
+									"id": 20,
+									"nombre": "Producto Perfumería 7",
+									"descripcion": "Premium",
+									"precio": 1300,
+									"caracteristicas": [
+										"Cantidad: Unidad",
+										"Calidad: Premium"
+									],
+									"imagen": "https://placehold.com/400x300?text=Perfumeria+7"
+								},
+								{
+									"id": 21,
+									"nombre": "Producto Perfumería 8",
+									"descripcion": "Económico",
+									"precio": 1100,
+									"caracteristicas": [
+										"Cantidad: Unidad",
+										"Tipo: Económico"
+									],
+									"imagen": "https://placehold.com/400x300?text=Perfumeria+8"
+								},
+								{
+									"id": 22,
+									"nombre": "Producto Perfumería 9",
+									"descripcion": "Estándar",
+									"precio": 800,
+									"caracteristicas": [
+										"Cantidad: Unidad"
+									],
+									"imagen": "https://placehold.com/400x300?text=Perfumeria+9"
+								},
+								{
+									"id": 23,
+									"nombre": "Producto Perfumería 10",
+									"descripcion": "Presentación",
+									"precio": 950,
+									"caracteristicas": [
+										"Cantidad: Unidad"
+									],
+									"imagen": "https://placehold.com/400x300?text=Perfumeria+10"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Tabaquería",
+					"colors": {
+						"primary": "bg-yellow-600",
+						"secondary": "bg-yellow-400",
+						"text-bg": "bg-yellow-100",
+						"text-primary": "text-yellow-600"
+					},
+					"subcategorias": [
+						{
+							"name": "General",
+							"productos": [
+								{
+									"id": 24,
+									"nombre": "Encendedor Ronson ClearLite",
+									"descripcion": "Encendedor premium - Display completo",
+									"precio": 3600,
+									"precio_unitario": 180,
+									"caracteristicas": [
+										"Presentación: Display de 20 unidades",
+										"Precio unitario: $180",
+										"Valor display: $3.600 (20 × $180)"
+									],
+									"imagen": "./assets/encendedor-ronson-display.jpg"
+								},
+								{
+									"id": 25,
+									"nombre": "Papel Fino Ronson",
+									"descripcion": "Papelillos rolling - Caja de 25 libritos",
+									"precio": 10000,
+									"precio_unitario": 400,
+									"caracteristicas": [
+										"Presentación: Display de 25 libritos",
+										"Precio unitario: $400 por librito",
+										"Valor display: $10.000 (25 × $400)",
+										"Contenido: 50 papeles por librito"
+									],
+									"imagen": "./assets/papel-fino-ronson-2.png"
+								},
+								{
+									"id": 31,
+									"nombre": "Display Encendedor Lin",
+									"descripcion": "Encendedor económico - 5 variedades de color",
+									"precio": 2700,
+									"precio_unitario": 135,
+									"caracteristicas": [
+										"Presentación: Display de 20 unidades",
+										"Precio unitario: $135 por unidad",
+										"Valor display: $2.700 (20 × $135)",
+										"5 tonos de color disponibles",
+										"Producto económico pero resistente"
+									],
+									"imagen": "https://placehold.com/400x300?text=Encendedor+Lin"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Adhesivos",
+					"colors": {
+						"primary": "bg-green-600",
+						"secondary": "bg-green-400",
+						"text-bg": "bg-green-100",
+						"text-primary": "text-green-600"
+					},
+					"subcategorias": [
+						{
+							"name": "General",
+							"productos": [
+								{
+									"id": 26,
+									"nombre": "Adhesivo Pequeño",
+									"descripcion": "Presentación compacta",
+									"precio": 750,
+									"caracteristicas": [
+										"Medida: 50 metros"
+									],
+									"imagen": "https://placehold.com/400x300?text=Adhesivo+50mts"
+								},
+								{
+									"id": 27,
+									"nombre": "Adhesivo Mediano",
+									"descripcion": "Rollo estándar",
+									"precio": 950,
+									"caracteristicas": [
+										"Medida: 100 metros"
+									],
+									"imagen": "https://placehold.com/400x300?text=Adhesivo+100mts"
+								},
+								{
+									"id": 28,
+									"nombre": "Adhesivo Pack",
+									"descripcion": "Formato multipack",
+									"precio": 167,
+									"caracteristicas": [
+										"Formato: Pack x12"
+									],
+									"imagen": "https://placehold.com/400x300?text=Adhesivo+Pack"
+								},
+								{
+									"id": 29,
+									"nombre": "Adhesivo Mini Pack",
+									"descripcion": "Pack reducido",
+									"precio": 1650,
+									"caracteristicas": [
+										"Formato: Pack x6"
+									],
+									"imagen": "https://placehold.com/400x300?text=Adhesivo+Mini+Pack"
+								},
+								{
+									"id": 30,
+									"nombre": "Adhesivo Premium",
+									"descripcion": "Calidad superior",
+									"precio": 1700,
+									"caracteristicas": [
+										"Presentación: Especial",
+										"Calidad: Superior"
+									],
+									"imagen": "https://placehold.com/400x300?text=Adhesivo+Premium"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"footer": {
+			"copyright": "© 2025 Catálogo",
+			"aviso": "Todos los precios están sujetos a cambios sin previo aviso",
+			"link": {
+				"text": "Medios de pago",
+				"url": "#!/medios-de-pago"
+			}
+		}
+	},
+	"mdp": {
+		"header": {
+			"title": "Catálogo",
+			"subtitle": "Medios de Pago"
+		},
+		"content": {
+			"cuentas": [
+				{
+					"name": "Banco Scotiabank",
+					"data": {
+						"type": "Corriente",
+						"number": "123629374620002727",
+						"rz": "Bazar y Paquetería Daisy Montenegro E.I.R.L",
+						"rut": "16.546.789-5"
+					}
+				}
+			]
+		},
+		"footer": {
+			"copyright": "© 2025 Catálogo",
+			"aviso": "Todos los precios están sujetos a cambios sin previo aviso",
+			"link": {
+				"text": "Volver al Catálogo",
+				"url": "#!/"
+			}
+		}
+	}
+}

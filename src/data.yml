@@ -1,0 +1,410 @@
+# Catálogo Oficial Paquetería
+# Datos de productos extraídos del sitio web
+
+configuracion:
+  nombre_tienda: "Catálogo"
+  descripcion_tienda: "Productos de calidad para su negocio"
+  moneda: "CLP"
+  simbolo_moneda: "$"
+  año: 2025
+  nota_legal: "Todos los precios están sujetos a cambios sin previo aviso"
+
+medios_de_pago:
+  - id: "scotiabank"
+    banco: "Banco Scotiabank"
+    tipo_cuenta: "Corriente"
+    numero_cuenta: "123629374620002727"
+    razon_social: "Bazar y Paquetería Daisy Montenegro E.I.R.L"
+    rut: "16.546.789-5"
+    color: "blue"
+    nota: "Por favor, envíe el comprobante de transferencia para confirmar su pedido"
+
+categorias:
+  - id: "plasticos"
+    nombre: "Plásticos"
+    descripcion: "Productos plásticos para embalaje"
+    color: "blue"
+    subcategorias:
+      - id: "bolsas"
+        nombre: "Bolsas"
+        color: "blue"
+      - id: "vasos"
+        nombre: "Vasos"
+        color: "green"
+
+  - id: "perfumeria"
+    nombre: "Perfumería"
+    descripcion: "Productos de perfumería y cuidado personal"
+    color: "purple"
+
+  - id: "tabaqueria"
+    nombre: "Tabaquería"
+    descripcion: "Accesorios para fumadores"
+    color: "red"
+
+  - id: "adhesivos"
+    nombre: "Adhesivos"
+    descripcion: "Cintas y adhesivos para embalaje"
+    color: "orange"
+
+productos:
+  # ========== PLÁSTICOS - BOLSAS ==========
+  - id: 1
+    nombre: "Bolsa Camiseta Mini"
+    descripcion: "Tamaño compacto para compras pequeñas"
+    precio: 650
+    categoria: "plasticos"
+    subcategoria: "bolsas"
+    caracteristicas:
+      - "Tamaño: 28 x 35 cm"
+      - "Tipo: Camiseta"
+      - "Ideal para compras pequeñas"
+    imagen: "https://placehold.com/400x300?text=Camiseta+Mini"
+    disponible: true
+
+  - id: 2
+    nombre: "Bolsa Camiseta Mediana"
+    descripcion: "Tamaño estándar para uso diario"
+    precio: 750
+    categoria: "plasticos"
+    subcategoria: "bolsas"
+    caracteristicas:
+      - "Tamaño: 35 x 40 cm"
+      - "Tipo: Camiseta"
+      - "Uso diario estándar"
+    imagen: "https://placehold.com/400x300?text=Camiseta+Mediana"
+    disponible: true
+
+  - id: 3
+    nombre: "Bolsa Camiseta Grande"
+    descripcion: "Tamaño grande para mayor capacidad"
+    precio: 1300
+    categoria: "plasticos"
+    subcategoria: "bolsas"
+    caracteristicas:
+      - "Tamaño: 40 x 50 cm"
+      - "Tipo: Camiseta"
+      - "Mayor capacidad de carga"
+    imagen: "https://placehold.com/400x300?text=Camiseta+Grande"
+    disponible: true
+
+  - id: 4
+    nombre: "Bolsa Camiseta Jumbo"
+    descripcion: "Tamaño extra grande para cargas pesadas"
+    precio: 2300
+    categoria: "plasticos"
+    subcategoria: "bolsas"
+    caracteristicas:
+      - "Tamaño: 50 x 60 cm"
+      - "Tipo: Camiseta"
+      - "Ideal para cargas pesadas y voluminosas"
+    imagen: "https://placehold.com/400x300?text=Camiseta+Jumbo"
+    disponible: true
+
+  - id: 5
+    nombre: "Rollo Pull Pack"
+    descripcion: "Sistema de rollo continuo"
+    precio: 7000
+    categoria: "plasticos"
+    subcategoria: "bolsas"
+    caracteristicas:
+      - "Cantidad: 700 unidades"
+      - "Tipo: Rollo continuo"
+    imagen: "https://placehold.com/400x300?text=Rollo+Pull+Pack"
+    disponible: true
+
+  - id: 6
+    nombre: "Botillera"
+    descripcion: "Para bebidas y botellas"
+    precio: 2500
+    categoria: "plasticos"
+    subcategoria: "bolsas"
+    caracteristicas:
+      - "Cantidad: 100 unidades"
+      - "Uso: Bebidas y botellas"
+    imagen: "https://placehold.com/400x300?text=Botillera"
+    disponible: true
+
+  - id: 7
+    nombre: "Bolsa para Ensaladas"
+    descripcion: "Ideal para alimentos frescos"
+    precio: 900
+    categoria: "plasticos"
+    subcategoria: "bolsas"
+    caracteristicas:
+      - "Tamaño: 15 x 20 cm"
+      - "Cantidad: 100 unidades por paquete"
+      - "Ideal para ensaladas y alimentos frescos"
+    imagen: "https://placehold.com/400x300?text=Bolsa+Ensaladas"
+    disponible: true
+
+  - id: 8
+    nombre: "Bolsa Taco Manga"
+    descripcion: "Manga con 10 paquetes de 100 unidades"
+    precio: 4500
+    precio_unitario: 500
+    categoria: "plasticos"
+    subcategoria: "bolsas"
+    caracteristicas:
+      - "Presentación: Manga de 10 paquetes"
+      - "Cada paquete: 100 unidades"
+      - "Precio por paquete: $500"
+      - "Valor manga completa: $4.500 (10 × $500)"
+      - "Total: 1.000 unidades por manga"
+    imagen: "https://placehold.com/400x300?text=Bolsa+Taco+Manga"
+    disponible: true
+
+  # ========== PLÁSTICOS - VASOS ==========
+  - id: 10
+    nombre: "Vaso 300cc"
+    descripcion: "Económico y resistente"
+    precio: 600
+    categoria: "plasticos"
+    subcategoria: "vasos"
+    caracteristicas:
+      - "Cantidad: 100 unidades"
+      - "Material: Polietileno"
+    imagen: "https://placehold.com/400x300?text=Vaso+Polietileno"
+    disponible: true
+
+  - id: 11
+    nombre: "Guante Vinilo TM/TL"
+    descripcion: "Tamaño mediano/grande"
+    precio: 3900
+    categoria: "plasticos"
+    subcategoria: "vasos"
+    caracteristicas:
+      - "Cantidad: 100 unidades"
+      - "Material: Vinilo"
+      - "Tamaño: Mediano/Grande"
+    imagen: "https://placehold.com/400x300?text=Vaso+Vinilo"
+    disponible: true
+
+  - id: 12
+    nombre: "Vaso 500cc"
+    descripcion: "Presentación compacta"
+    precio: 1300
+    categoria: "plasticos"
+    subcategoria: "vasos"
+    caracteristicas:
+      - "Cantidad: 50 unidades"
+      - "Tamaño: Grande"
+    imagen: "https://placehold.com/400x300?text=Vaso+Pequeno"
+    disponible: true
+
+  - id: 13
+    nombre: "Vaso Premium"
+    descripcion: "Calidad superior"
+    precio: 1300
+    categoria: "plasticos"
+    subcategoria: "vasos"
+    caracteristicas:
+      - "Cantidad: 25 unidades"
+      - "Calidad: Premium"
+    imagen: "https://placehold.com/400x300?text=Vaso+Premium"
+    disponible: true
+
+  # ========== PERFUMERÍA ==========
+  - id: 14
+    nombre: "Maquina de afeitar Wilkinson"
+    descripcion: "Tira con 12 Unidades"
+    precio: 6000
+    precio_unitario: 500
+    categoria: "perfumeria"
+    caracteristicas:
+      - "Formato: Pack x12"
+      - "2 Hoja en 1 cabezal"
+      - "Desechable"
+    imagen: "https://placehold.com/400x300?text=Perfumeria+1"
+    disponible: true
+
+  - id: 15
+    nombre: "Maquina de afeitar "
+    descripcion: "Calidad premium"
+    precio: 880
+    categoria: "perfumeria"
+    caracteristicas:
+      - "Formato: Pack x12"
+      - "Calidad: Premium"
+    imagen: "https://placehold.com/400x300?text=Perfumeria+2"
+    disponible: true
+
+  - id: 16
+    nombre: "Producto Perfumería 3"
+    descripcion: "Tamaño 750ml"
+    precio: 890
+    categoria: "perfumeria"
+    caracteristicas:
+      - "Formato: Pack x14"
+      - "Tamaño: 750ml"
+    imagen: "https://placehold.com/400x300?text=Perfumeria+3"
+    disponible: true
+
+  - id: 17
+    nombre: "Producto Perfumería 4"
+    descripcion: "Presentación estándar"
+    precio: 700
+    categoria: "perfumeria"
+    caracteristicas:
+      - "Cantidad: 3 unidades"
+    imagen: "https://placehold.com/400x300?text=Perfumeria+4"
+    disponible: true
+
+  - id: 18
+    nombre: "Producto Perfumería 5"
+    descripcion: "Formato grande"
+    precio: 1000
+    categoria: "perfumeria"
+    caracteristicas:
+      - "Cantidad: 1 unidad"
+      - "Tamaño: Grande"
+    imagen: "https://placehold.com/400x300?text=Perfumeria+5"
+    disponible: true
+
+  - id: 19
+    nombre: "Producto Perfumería 6"
+    descripcion: "Tamaño mediano"
+    precio: 350
+    categoria: "perfumeria"
+    caracteristicas:
+      - "Formato: Pack x13"
+      - "Tamaño: Mediano"
+    imagen: "https://placehold.com/400x300?text=Perfumeria+6"
+    disponible: true
+
+  - id: 20
+    nombre: "Producto Perfumería 7"
+    descripcion: "Premium"
+    precio: 1300
+    categoria: "perfumeria"
+    caracteristicas:
+      - "Cantidad: Unidad"
+      - "Calidad: Premium"
+    imagen: "https://placehold.com/400x300?text=Perfumeria+7"
+    disponible: true
+
+  - id: 21
+    nombre: "Producto Perfumería 8"
+    descripcion: "Económico"
+    precio: 1100
+    categoria: "perfumeria"
+    caracteristicas:
+      - "Cantidad: Unidad"
+      - "Tipo: Económico"
+    imagen: "https://placehold.com/400x300?text=Perfumeria+8"
+    disponible: true
+
+  - id: 22
+    nombre: "Producto Perfumería 9"
+    descripcion: "Estándar"
+    precio: 800
+    categoria: "perfumeria"
+    caracteristicas:
+      - "Cantidad: Unidad"
+    imagen: "https://placehold.com/400x300?text=Perfumeria+9"
+    disponible: true
+
+  - id: 23
+    nombre: "Producto Perfumería 10"
+    descripcion: "Presentación"
+    precio: 950
+    categoria: "perfumeria"
+    caracteristicas:
+      - "Cantidad: Unidad"
+    imagen: "https://placehold.com/400x300?text=Perfumeria+10"
+    disponible: true
+
+  # ========== TABAQUERÍA ==========
+  - id: 24
+    nombre: "Encendedor Ronson ClearLite"
+    descripcion: "Encendedor premium - Display completo"
+    precio: 3600
+    precio_unitario: 180
+    categoria: "tabaqueria"
+    caracteristicas:
+      - "Presentación: Display de 20 unidades"
+      - "Precio unitario: $180"
+      - "Valor display: $3.600 (20 × $180)"
+    imagen: "./assets/encendedor-ronson-display.jpg"
+    disponible: true
+
+  - id: 25
+    nombre: "Papel Fino Ronson"
+    descripcion: "Papelillos rolling - Caja de 25 libritos"
+    precio: 10000
+    precio_unitario: 400
+    categoria: "tabaqueria"
+    caracteristicas:
+      - "Presentación: Display de 25 libritos"
+      - "Precio unitario: $400 por librito"
+      - "Valor display: $10.000 (25 × $400)"
+      - "Contenido: 50 papeles por librito"
+    imagen: "./assets/papel-fino-ronson-2.png"
+    disponible: true
+
+  - id: 31
+    nombre: "Display Encendedor Lin"
+    descripcion: "Encendedor económico - 5 variedades de color"
+    precio: 2700
+    precio_unitario: 135
+    categoria: "tabaqueria"
+    caracteristicas:
+      - "Presentación: Display de 20 unidades"
+      - "Precio unitario: $135 por unidad"
+      - "Valor display: $2.700 (20 × $135)"
+      - "5 tonos de color disponibles"
+      - "Producto económico pero resistente"
+    imagen: "https://placehold.com/400x300?text=Encendedor+Lin"
+    disponible: true
+
+  # ========== ADHESIVOS ==========
+  - id: 26
+    nombre: "Adhesivo Pequeño"
+    descripcion: "Presentación compacta"
+    precio: 750
+    categoria: "adhesivos"
+    caracteristicas:
+      - "Medida: 50 metros"
+    imagen: "https://placehold.com/400x300?text=Adhesivo+50mts"
+    disponible: true
+
+  - id: 27
+    nombre: "Adhesivo Mediano"
+    descripcion: "Rollo estándar"
+    precio: 950
+    categoria: "adhesivos"
+    caracteristicas:
+      - "Medida: 100 metros"
+    imagen: "https://placehold.com/400x300?text=Adhesivo+100mts"
+    disponible: true
+
+  - id: 28
+    nombre: "Adhesivo Pack"
+    descripcion: "Formato multipack"
+    precio: 167
+    categoria: "adhesivos"
+    caracteristicas:
+      - "Formato: Pack x12"
+    imagen: "https://placehold.com/400x300?text=Adhesivo+Pack"
+    disponible: true
+
+  - id: 29
+    nombre: "Adhesivo Mini Pack"
+    descripcion: "Pack reducido"
+    precio: 1650
+    categoria: "adhesivos"
+    caracteristicas:
+      - "Formato: Pack x6"
+    imagen: "https://placehold.com/400x300?text=Adhesivo+Mini+Pack"
+    disponible: true
+
+  - id: 30
+    nombre: "Adhesivo Premium"
+    descripcion: "Calidad superior"
+    precio: 1700
+    categoria: "adhesivos"
+    caracteristicas:
+      - "Presentación: Especial"
+      - "Calidad: Superior"
+    imagen: "https://placehold.com/400x300?text=Adhesivo+Premium"
+    disponible: true

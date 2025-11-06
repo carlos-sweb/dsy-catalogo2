@@ -1,0 +1,62 @@
+{
+	"site":{
+		"header":{
+			"title":"Catálogo",
+			"subtitle":"Productos de calidad para su negocio"
+		},
+		"content":{
+			"categorias":[
+				{
+					"name":"Plásticos",
+					"productos":[
+						{"name":""}
+					]
+				},
+				{
+					"name":"Perfumería"
+				},
+				{
+					"name":"Tabaquería"
+				},
+				{
+					"name":"Adhesivos"
+				}
+			]
+		},
+		"footer":{
+			"copyright":"© 2025 Catálogo",
+			"aviso":"Todos los precios están sujetos a cambios sin previo aviso",
+			"link":{
+				"text":"Medios de pago",
+				"url":"#!/medios-de-pago"
+			}
+		}		
+	},
+	"mdp":{
+		"header":{
+			"title":"Catálogo",
+			"subtitle":"Medios de Pago"
+		},
+		"content":{
+			"cuentas":[
+				{
+					"name":"Banco Scotiabank",
+					"data":{
+						"type":"Corriente",
+						"number":"990308082",
+						"rz":"Bazar y Paquetería Daisy Montenegro E.I.R.L",
+						"rut":"77.998.347-1"
+					}					
+				}
+		]
+		},
+		"footer":{
+			"copyright":"© 2025 Catálogo",
+			"aviso":"Todos los precios están sujetos a cambios sin previo aviso",
+			"link":{
+				"text":"Volver al Catálogo",
+				"url":"#!/"
+			}
+		}		
+	}
+}
