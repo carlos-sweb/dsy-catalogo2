@@ -44,7 +44,7 @@ const itemCard = {
         const precio_unitario = vnode.attrs.precio_unitario || null;        
         const primary = vnode.attrs.primary
         return m("div.bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow overflow-hidden poppins-semibold",
-            m("div.bg-blue-50 h-56 flex items-center justify-center overflow-hidden",m("img",{src:"https://placehold.co/600x400"})),
+            m("div.bg-blue-50 h-56 flex items-center justify-center overflow-hidden",m("img",{src:vnode.attrs.imagen})),
             m("div.p-6",
                 m("h4.text-2xl font-bold text-gray-800 mb-3 leading-tight",vnode.attrs.nombre),
                 m("p.text-lg text-gray-600 mb-5 leading-relaxed",vnode.attrs.descripcion),                

@@ -28,7 +28,7 @@
 										"Tipo: Camiseta",
 										"Ideal para compras pequeñas"
 									],
-									"imagen": "https://placehold.com/400x300?text=Camiseta+Mini"
+									"imagen": "https://placehold.co/400x300?text=Camiseta+Mini"
 								},
 								{
 									"id": 2,
@@ -40,7 +40,7 @@
 										"Tipo: Camiseta",
 										"Uso diario estándar"
 									],
-									"imagen": "https://placehold.com/400x300?text=Camiseta+Mediana"
+									"imagen": "https://placehold.co/400x300?text=Camiseta+Mediana"
 								},
 								{
 									"id": 3,
@@ -52,7 +52,7 @@
 										"Tipo: Camiseta",
 										"Mayor capacidad de carga"
 									],
-									"imagen": "https://placehold.com/400x300?text=Camiseta+Grande"
+									"imagen": "https://placehold.co/400x300?text=Camiseta+Grande"
 								},
 								{
 									"id": 4,
@@ -64,7 +64,7 @@
 										"Tipo: Camiseta",
 										"Ideal para cargas pesadas y voluminosas"
 									],
-									"imagen": "https://placehold.com/400x300?text=Camiseta+Jumbo"
+									"imagen": "https://placehold.co/400x300?text=Camiseta+Jumbo"
 								},
 								{
 									"id": 5,
@@ -75,7 +75,7 @@
 										"Cantidad: 700 unidades",
 										"Tipo: Rollo continuo"
 									],
-									"imagen": "https://placehold.com/400x300?text=Rollo+Pull+Pack"
+									"imagen": "https://placehold.co/400x300?text=Rollo+Pull+Pack"
 								},
 								{
 									"id": 6,
@@ -86,7 +86,7 @@
 										"Cantidad: 100 unidades",
 										"Uso: Bebidas y botellas"
 									],
-									"imagen": "https://placehold.com/400x300?text=Botillera"
+									"imagen": "https://placehold.co/400x300?text=Botillera"
 								},
 								{
 									"id": 7,
@@ -98,7 +98,7 @@
 										"Cantidad: 100 unidades por paquete",
 										"Ideal para ensaladas y alimentos frescos"
 									],
-									"imagen": "https://placehold.com/400x300?text=Bolsa+Ensaladas"
+									"imagen": "https://placehold.co/400x300?text=Bolsa+Ensaladas"
 								},
 								{
 									"id": 8,
@@ -113,7 +113,7 @@
 										"Valor manga completa: $4.500 (10 × $500)",
 										"Total: 1.000 unidades por manga"
 									],
-									"imagen": "https://placehold.com/400x300?text=Bolsa+Taco+Manga"
+									"imagen": "https://placehold.co/400x300?text=Bolsa+Taco+Manga"
 								}
 							]
 						},
@@ -129,7 +129,7 @@
 										"Cantidad: 100 unidades",
 										"Material: Polietileno"
 									],
-									"imagen": "https://placehold.com/400x300?text=Vaso+Polietileno"
+									"imagen": "https://placehold.co/400x300?text=Vaso+Polietileno"
 								},
 								{
 									"id": 11,
@@ -141,7 +141,7 @@
 										"Material: Vinilo",
 										"Tamaño: Mediano/Grande"
 									],
-									"imagen": "https://placehold.com/400x300?text=Vaso+Vinilo"
+									"imagen": "https://placehold.co/400x300?text=Vaso+Vinilo"
 								},
 								{
 									"id": 12,
@@ -152,7 +152,7 @@
 										"Cantidad: 50 unidades",
 										"Tamaño: Grande"
 									],
-									"imagen": "https://placehold.com/400x300?text=Vaso+Pequeno"
+									"imagen": "https://placehold.co/400x300?text=Vaso+Pequeno"
 								},
 								{
 									"id": 13,
@@ -163,7 +163,7 @@
 										"Cantidad: 25 unidades",
 										"Calidad: Premium"
 									],
-									"imagen": "https://placehold.com/400x300?text=Vaso+Premium"
+									"imagen": "https://placehold.co/400x300?text=Vaso+Premium"
 								}
 							]
 						}
@@ -192,7 +192,7 @@
 										"2 Hoja en 1 cabezal",
 										"Desechable"
 									],
-									"imagen": "https://placehold.com/400x300?text=Perfumeria+1"
+									"imagen": "https://placehold.co/400x300?text=Perfumeria+1"
 								},
 								{
 									"id": 15,
@@ -203,7 +203,7 @@
 										"Formato: Pack x12",
 										"Calidad: Premium"
 									],
-									"imagen": "https://placehold.com/400x300?text=Perfumeria+2"
+									"imagen": "https://placehold.co/400x300?text=Perfumeria+2"
 								},
 								{
 									"id": 16,
@@ -214,7 +214,7 @@
 										"Formato: Pack x14",
 										"Tamaño: 750ml"
 									],
-									"imagen": "https://placehold.com/400x300?text=Perfumeria+3"
+									"imagen": "https://placehold.co/400x300?text=Perfumeria+3"
 								},
 								{
 									"id": 17,
@@ -224,7 +224,7 @@
 									"caracteristicas": [
 										"Cantidad: 3 unidades"
 									],
-									"imagen": "https://placehold.com/400x300?text=Perfumeria+4"
+									"imagen": "https://placehold.co/400x300?text=Perfumeria+4"
 								},
 								{
 									"id": 18,
@@ -235,7 +235,7 @@
 										"Cantidad: 1 unidad",
 										"Tamaño: Grande"
 									],
-									"imagen": "https://placehold.com/400x300?text=Perfumeria+5"
+									"imagen": "https://placehold.co/400x300?text=Perfumeria+5"
 								},
 								{
 									"id": 19,
@@ -246,7 +246,7 @@
 										"Formato: Pack x13",
 										"Tamaño: Mediano"
 									],
-									"imagen": "https://placehold.com/400x300?text=Perfumeria+6"
+									"imagen": "https://placehold.co/400x300?text=Perfumeria+6"
 								},
 								{
 									"id": 20,
@@ -257,7 +257,7 @@
 										"Cantidad: Unidad",
 										"Calidad: Premium"
 									],
-									"imagen": "https://placehold.com/400x300?text=Perfumeria+7"
+									"imagen": "https://placehold.co/400x300?text=Perfumeria+7"
 								},
 								{
 									"id": 21,
@@ -268,7 +268,7 @@
 										"Cantidad: Unidad",
 										"Tipo: Económico"
 									],
-									"imagen": "https://placehold.com/400x300?text=Perfumeria+8"
+									"imagen": "https://placehold.co/400x300?text=Perfumeria+8"
 								},
 								{
 									"id": 22,
@@ -278,7 +278,7 @@
 									"caracteristicas": [
 										"Cantidad: Unidad"
 									],
-									"imagen": "https://placehold.com/400x300?text=Perfumeria+9"
+									"imagen": "https://placehold.co/400x300?text=Perfumeria+9"
 								},
 								{
 									"id": 23,
@@ -288,7 +288,7 @@
 									"caracteristicas": [
 										"Cantidad: Unidad"
 									],
-									"imagen": "https://placehold.com/400x300?text=Perfumeria+10"
+									"imagen": "https://placehold.co/400x300?text=Perfumeria+10"
 								}
 							]
 						}
@@ -331,7 +331,7 @@
 										"Valor display: $10.000 (25 × $400)",
 										"Contenido: 50 papeles por librito"
 									],
-									"imagen": "./assets/papel-fino-ronson-2.png"
+									"imagen": "./assets/papel-fino-ronson.png"
 								},
 								{
 									"id": 31,
@@ -346,7 +346,7 @@
 										"5 tonos de color disponibles",
 										"Producto económico pero resistente"
 									],
-									"imagen": "https://placehold.com/400x300?text=Encendedor+Lin"
+									"imagen": "https://placehold.co/400x300?text=Encendedor+Lin"
 								}
 							]
 						}
@@ -366,13 +366,14 @@
 							"productos": [
 								{
 									"id": 26,
-									"nombre": "Adhesivo Pequeño",
+									"nombre": "Chemmer - Display 12",
 									"descripcion": "Presentación compacta",
-									"precio": 750,
+									"precio": 2000,
+									"precio_unitario":166,
 									"caracteristicas": [
-										"Medida: 50 metros"
+										"Rapido"
 									],
-									"imagen": "https://placehold.com/400x300?text=Adhesivo+50mts"
+									"imagen": "./assets/chemmer-12.png"
 								},
 								{
 									"id": 27,
@@ -382,7 +383,7 @@
 									"caracteristicas": [
 										"Medida: 100 metros"
 									],
-									"imagen": "https://placehold.com/400x300?text=Adhesivo+100mts"
+									"imagen": "https://placehold.co/400x300?text=Adhesivo+100mts"
 								},
 								{
 									"id": 28,
@@ -392,7 +393,7 @@
 									"caracteristicas": [
 										"Formato: Pack x12"
 									],
-									"imagen": "https://placehold.com/400x300?text=Adhesivo+Pack"
+									"imagen": "https://placehold.co/400x300?text=Adhesivo+Pack"
 								},
 								{
 									"id": 29,
@@ -402,7 +403,7 @@
 									"caracteristicas": [
 										"Formato: Pack x6"
 									],
-									"imagen": "https://placehold.com/400x300?text=Adhesivo+Mini+Pack"
+									"imagen": "https://placehold.co/400x300?text=Adhesivo+Mini+Pack"
 								},
 								{
 									"id": 30,
@@ -413,7 +414,7 @@
 										"Presentación: Especial",
 										"Calidad: Superior"
 									],
-									"imagen": "https://placehold.com/400x300?text=Adhesivo+Premium"
+									"imagen": "https://placehold.co/400x300?text=Adhesivo+Premium"
 								}
 							]
 						}

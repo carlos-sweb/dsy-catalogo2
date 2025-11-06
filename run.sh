@@ -18,9 +18,7 @@ esbuild src/app.js \
 --bundle \
 --minify \
 --target=chrome58,firefox57,safari11,edge16 \
---outdir=public
-
-# \
-# --watch \
-#--serve=5000 \
-#--servedir=public
+--outdir=public \
+--watch \
+--serve=5000 \
+--servedir=public

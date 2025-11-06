@@ -40,14 +40,12 @@ var Mediosdepago = {
 	}
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-	
+document.addEventListener('DOMContentLoaded', function() {	
 	setTimeout(function(){
 		m.route(document.body, "/", {
 			"/": Home,
 			"/medios-de-pago": Mediosdepago,
 		})
-	},300)		
-		
+	})
 });
 
