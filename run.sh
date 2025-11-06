@@ -14,11 +14,11 @@ src/css/style.css \
 node_modules/@fontsource/poppins/*.css \
 -o public/style.min.css
 
-esbuild src/app.js \
+./package/bin/esbuild src/app.js \
 --bundle \
 --minify \
 --target=chrome58,firefox57,safari11,edge16 \
 --outdir=public \
---watch \
---serve=5000 \
---servedir=public
+#--watch \
+#--serve=5000 \
+#--servedir=public
