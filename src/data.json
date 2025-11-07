@@ -272,23 +272,23 @@
 								},
 								{
 									"id": 22,
-									"nombre": "Producto Perfumería 9",
-									"descripcion": "Estándar",
+									"nombre": "Preservativos Kingdom",
+									"descripcion": "Seguro y Resistente",
 									"precio": 800,
 									"caracteristicas": [
 										"Cantidad: Unidad"
 									],
-									"imagen": "https://placehold.co/400x300?text=Perfumeria+9"
+									"imagen": "./assets/kingdom.png"
 								},
 								{
 									"id": 23,
-									"nombre": "Producto Perfumería 10",
-									"descripcion": "Presentación",
-									"precio": 950,
+									"nombre": "Test de Emabarzo",
+									"descripcion": "Rapido y Efectivo",
+									"precio": 700,
 									"caracteristicas": [
 										"Cantidad: Unidad"
 									],
-									"imagen": "https://placehold.co/400x300?text=Perfumeria+10"
+									"imagen": "./assets/test-de-embarazo.png"
 								}
 							]
 						}
