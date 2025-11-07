@@ -346,7 +346,7 @@
 										"5 tonos de color disponibles",
 										"Producto económico pero resistente"
 									],
-									"imagen": "https://placehold.co/400x300?text=Encendedor+Lin"
+									"imagen": "./assets/lin-encendedor.png"
 								}
 							]
 						}
@@ -373,48 +373,18 @@
 									"caracteristicas": [
 										"Rapido"
 									],
-									"imagen": "./assets/chemmer-12.jpg"
+									"imagen": "./assets/chemmer-12.png"
 								},
 								{
 									"id": 27,
-									"nombre": "Adhesivo Mediano",
-									"descripcion": "Rollo estándar",
-									"precio": 950,
+									"nombre": "La Gotita",
+									"descripcion": "Lo que La Gotita pega, nada, nada lo despega",
+									"precio": 9900,
+									"precio_unitario":1650,
 									"caracteristicas": [
 										"Medida: 100 metros"
 									],
-									"imagen": "https://placehold.co/400x300?text=Adhesivo+100mts"
-								},
-								{
-									"id": 28,
-									"nombre": "Adhesivo Pack",
-									"descripcion": "Formato multipack",
-									"precio": 167,
-									"caracteristicas": [
-										"Formato: Pack x12"
-									],
-									"imagen": "https://placehold.co/400x300?text=Adhesivo+Pack"
-								},
-								{
-									"id": 29,
-									"nombre": "Adhesivo Mini Pack",
-									"descripcion": "Pack reducido",
-									"precio": 1650,
-									"caracteristicas": [
-										"Formato: Pack x6"
-									],
-									"imagen": "https://placehold.co/400x300?text=Adhesivo+Mini+Pack"
-								},
-								{
-									"id": 30,
-									"nombre": "Adhesivo Premium",
-									"descripcion": "Calidad superior",
-									"precio": 1700,
-									"caracteristicas": [
-										"Presentación: Especial",
-										"Calidad: Superior"
-									],
-									"imagen": "https://placehold.co/400x300?text=Adhesivo+Premium"
+									"imagen": "./assets/la-gotita.png"
 								}
 							]
 						}
