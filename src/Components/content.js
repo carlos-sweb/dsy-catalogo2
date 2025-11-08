@@ -35,21 +35,21 @@ numeral.register('locale', 'es-cl', {
 // Activar la configuración local chilena
 numeral.locale('es-cl');
 
-const cssMain = "main.max-w-7xl mx-auto px-4 py-12",
-cssH2 = "h2.text-4xl font-bold text-gray-800 poppins-bold"
+const cssMain = "main.main-home",
+cssH2 = "h2.poppins-bold"
 
 const itemCard = {
     view:function(vnode){        
         const precio = vnode.attrs.precio        
         const precio_unitario = vnode.attrs.precio_unitario || null;        
         const primary = vnode.attrs.primary
-        return m("div.bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow overflow-hidden poppins-semibold",
-            m("div.bg-blue-50 h-56 flex items-center justify-center overflow-hidden",m("img",{src:vnode.attrs.imagen})),
-            m("div.p-6",
-                m("h4.text-2xl font-bold text-gray-800 mb-3 leading-tight",vnode.attrs.nombre),
-                m("p.text-lg text-gray-600 mb-5 leading-relaxed",vnode.attrs.descripcion),                
-                m("p.text-center border-t-2 pt-5 mt-5",{class:primary},m("span.text-5xl font-bold",{class:primary}, numeral(precio).format("$0,0") )),
-                (precio_unitario != null) ? m("p.text-center text-base text-gray-500 mt-2 poppins-regular","Precio Unitario: "+numeral(precio_unitario).format("$0,0")) : void(0)
+        return m("div.card-item.poppins-semibold",
+            m("div.card-item-image",m("img",{src:vnode.attrs.imagen})),
+            m("div.card-item-content",
+                m("h4",vnode.attrs.nombre),
+                m("p.content-desc",vnode.attrs.descripcion),                
+                m("p.content-price",{class:primary},m("span.content-price-text", numeral(precio).format("$0,0") )),
+                (precio_unitario != null) ? m("p.content-price-unitario.poppins-regular","Precio Unitario: "+numeral(precio_unitario).format("$0,0")) : void(0)
                 ),
         );
     }
@@ -58,21 +58,23 @@ const itemCard = {
 
 const content = {
     view:(vnode)=>{
-        return m(cssMain,
+        return m( "main.main-home" ,
             vnode.attrs["categorias"].map((category)=>{
-            const primary = category.colors.primary; 
-            const secondary = category.colors.secondary; 
-            const textPrimary =    category.colors["text-primary"]; 
-            return m("section.mb20",
-            m("div.flex items-center gap-4 mb-10",
-                m("div.w-2 h-12 rounded-full",{class:primary}),
+            
+            const primary = category.colors.primary,
+            secondary = category.colors.secondary,
+            textPrimary =    category.colors["text-primary"]; 
+
+            return m("section",
+            m("div",
+                m("div",{class:primary}),
                 m(cssH2,category.name)
             ),
-            m("div.mb-12",
+            m("div",
                 category["subcategorias"].map((sub)=>{                                        
                     return [
-                        m("div.flex items-center gap-3 mb-6",m("div.w-1.5 h-8 rounded-full",{class:primary}),m("h3.text-2xl font-bold text-gray-700",sub.name)),
-                        m("div.grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-6",
+                        m("div",m("div",{class:primary}),m("h3.poppins-bold",sub.name)),
+                        m("div",
                             sub["productos"].map(function(producto){
                                 return m(itemCard,{...producto,...{primary:textPrimary}} )
                             })

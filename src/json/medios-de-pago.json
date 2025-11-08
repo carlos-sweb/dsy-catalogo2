@@ -1,0 +1,17 @@
+[{
+	"name": "Banco Scotiabank",
+	"data": {
+		"type": "CORRIENTE",
+		"number": "990308082",
+		"rz": "BAZAR Y PAQUETERIA DAISY MONTENEGRO E.I.R.L.",
+		"rut": "77.998.347-1"	
+	}
+},{
+	"name": "Banco Estado",
+	"data": {
+		"type": "RUT",
+		"number": "16088145",
+		"rz": "DAISY NATALY MONTENEGRO VERA",
+		"rut": "16.088.145-3"	
+	}
+}]

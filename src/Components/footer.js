@@ -1,12 +1,14 @@
 import m from 'mithril'
 const footer ={
     view:function(vnode){
-        return m("footer",{class:"bg-gray-800 text-white py-10 mt-20 poppins-light"},
-            m("div",{class:"max-w-7xl mx-auto px-4 text-center"},
+        const url = vnode.attrs.link.url,
+        url_text = vnode.attrs.link.text;
+        return m("footer.footer.poppins-regular",
+            m("div.footer-box",
                 [
-                    m("p",{class:"text-gray-400 text-lg mb-3"},vnode.attrs.copyright),
-                    m("p",{class:"text-gray-500 text-base mb-4"},vnode.attrs.aviso),
-                    m("a",{href:vnode.attrs.link.url,class:"text-blue-400 hover:text-blue-300 underline text-base transition-colors"},vnode.attrs.link.text)
+                    m("p.copyright",vnode.attrs.copyright),
+                    m("p.notice",vnode.attrs.aviso),
+                    m("a.link",{href:url},url_text)
                 ]
                 )
             )

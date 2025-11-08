@@ -9,8 +9,10 @@ if [ ! -d public/files ]; then
   cp -r node_modules/@fontsource/poppins/files/ public/
 fi
 
+npx @tailwindcss/cli -i src/css/style.css -o src/css/tailwindcss-style.css
+
 cleancss \
-src/css/style.css \
+src/css/tailwindcss-style.css \
 node_modules/@fontsource/poppins/*.css \
 -o public/style.min.css
 
@@ -19,6 +21,6 @@ esbuild src/app.js \
 --minify \
 --target=chrome58,firefox57,safari11,edge16 \
 --outdir=public \
-#--watch \
+--watch \
 #--serve=5000 \
 #--servedir=public

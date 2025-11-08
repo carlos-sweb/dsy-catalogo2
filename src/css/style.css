@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@reference "tailwindcss";
+
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -104,4 +110,167 @@
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: italic;
+}
+
+
+body{
+  @apply hidden;
+  margin: 0px;
+}
+.main-home{
+  @apply max-w-7xl mx-auto px-4 py-12;
+}  
+.main-home>section{
+  @apply mb-20;
+}
+/*--section title --*/
+.main-home>section>div:nth-child(1){
+  @apply flex items-center gap-4 h-12 mb-1;
+}
+.main-home>section>div:nth-child(1)>div:nth-child(1){
+  @apply w-2 h-12 rounded-full;
+}
+.main-home>section>div:nth-child(1)>h2{
+  @apply text-4xl font-bold text-gray-800;
+}
+/*--section title --*/
+/*--section title category --*/
+.main-home>section>div:nth-child(2){
+  @apply mb-12;
+}
+/*--section title category ** container --*/
+.main-home>section>div:nth-child(2)>div:nth-child(odd){
+  @apply flex items-center gap-3 mb-6;
+}
+/* grid-cols-1 md:grid-cols-2 lg:grid-cols-3 */
+.main-home>section>div:nth-child(2)>div:nth-child(even){
+  @apply grid grid-cols-1 gap-8 mb-6;
+}
+.main-home>section>div:nth-child(2)>div:nth-child(odd)>div:nth-child(1){
+  @apply w-1.5 h-8 rounded-full;
+}
+.main-home>section>div:nth-child(2)>div:nth-child(odd)>h3{
+  @apply text-2xl font-bold text-gray-700;
+}
+.card-item{
+  @apply bg-white rounded-xl shadow-md transition-shadow overflow-hidden;
+} 
+.card-item:hover{
+  @apply shadow-xl;
+}
+.card-item-image{
+  @apply bg-blue-50 h-56 flex items-center justify-center overflow-hidden;
+}  
+.card-item-image img{
+  @apply w-full h-full object-fill;
+}
+.card-item-content{
+  @apply p-6;
+}
+.card-item-content h4{
+  @apply text-2xl font-bold text-gray-800 mb-3 leading-tight;
+}
+.content-desc{
+  @apply text-lg text-gray-600 mb-5 leading-relaxed;
+}
+.content-price{
+  @apply text-center border-t-2 pt-5 mt-5;
+}
+.content-price-text{
+  @apply text-5xl font-bold;
+}
+.content-price-unitario{
+  @apply text-center text-base text-gray-500 mt-2;
+}
+/*--section title category --*/
+.header{
+  @apply bg-gradient-to-r from-blue-600 to-blue-800 text-white py-4;
+}
+.header>div{
+  @apply max-w-7xl mx-auto px-4;
+}
+/* md:text-6xl  */
+.header-h1{
+  @apply text-5xl  font-bold mb-3;
+}
+.header-p{
+  @apply text-xl text-blue-100;
+}
+.footer{
+  @apply bg-gray-800 text-white py-10 mt-5;
+}
+.footer-box{
+  @apply max-w-7xl mx-auto px-4 text-center;
+}
+.footer .copyright{
+  @apply text-gray-400 text-lg mb-3;
+}
+.footer .notice{
+  @apply text-gray-500 text-base mb-4;
+}
+.footer .link{
+  @apply text-blue-400 underline text-base transition-colors;
+}
+.footer .link:hover{
+  @apply text-blue-300;
+}
+/* Tus clases personalizadas con @apply */
+.mdp-card-container{
+  @apply max-w-4xl mx-auto px-4 py-12;
+}
+.mdp-card{
+  @apply bg-white rounded-xl shadow overflow-hidden mb-8;
+}
+.mdp-card-header{
+  @apply bg-gradient-to-r from-blue-600 to-blue-800 px-8 py-6 flex justify-between items-center pb-1 pt-1;
+}
+
+.mdp-card-header h2{
+  @apply text-3xl font-bold text-white;
+}
+/*hover:bg-white/20*/
+.mdp-card-header button{
+  @apply outline-none bg-transparent border-none p-2 rounded-lg transition-colors cursor-pointer;
+}
+/* hay que quitar el focus de los botones y agregar un ripple */
+.mdp-card-header button:focus{
+  @apply outline-none;
+}
+
+.mdp-card-header button span{
+  @apply h-6 w-6 text-white inline-block;
+}
+
+.mdp-card-header button span svg{
+  @apply h-6 w-6 text-white inline-block;
+}
+.mdp-card-content{
+  @apply p-8;
+}
+
+.mdp-card-content-item{
+  @apply border-l-4 border-blue-600 pl-6 py-2 mb-4;
+}
+.mdp-card-content-item p{
+  @apply m-px;
+}
+.mdp-card-footer{
+  @apply bg-gray-50 px-8 py-6 border-t border-gray-200 flex justify-between items-center;
+}
+/* hover:bg-blue-50   */
+.mdp-card-footer button{
+  @apply bg-transparent border-none ml-4 p-3 rounded-lg transition-colors flex items-center gap-2 cursor-pointer;
+}
+.mdp-card-footer p{
+  @apply text-sm text-gray-600 flex-1;
+}
+.mdp-button-box{
+  @apply mt-8 text-center;
+}
+.mdp-button{
+  @apply inline-flex items-center gap-2 bg-blue-600  text-white font-semibold px-8 py-4 rounded-xl transition-colors shadow-md  cursor-pointer no-underline;
+
+}
+.mdp-button:hover{
+    @apply bg-blue-700 shadow-lg;
 }
