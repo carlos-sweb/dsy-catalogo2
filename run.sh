@@ -1,4 +1,6 @@
 #/user/bin/bash
+# magick encendedor-ronson-raw.png -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -strip -resize 600x output_optimized.png
+
 html-minifier \
 --collapse-whitespace \
 --remove-comments \

@@ -183,93 +183,42 @@
 							"productos": [
 								{
 									"id": 14,
-									"nombre": "Maquina de afeitar Wilkinson",
-									"descripcion": "Tira con 12 Unidades",
-									"precio": 6000,
-									"precio_unitario": 500,
-									"caracteristicas": [
-										"Formato: Pack x12",
-										"2 Hoja en 1 cabezal",
-										"Desechable"
+									"nombre": "Cepillo colgate",
+									"descripcion": "Tira con 13 Unidades",
+									"precio": 4550,
+									"precio_unitario":350,
+									"caracteristicas": [										
 									],
-									"imagen": "https://placehold.co/400x300?text=Perfumeria+1"
+									"imagen": "https://placehold.co/400x300?text=Cepillo+colgate"
 								},
 								{
-									"id": 15,
-									"nombre": "Maquina de afeitar ",
-									"descripcion": "Calidad premium",
-									"precio": 880,
-									"caracteristicas": [
-										"Formato: Pack x12",
-										"Calidad: Premium"
+									"id": 14,
+									"nombre": "Crema dental Colgate",
+									"descripcion": "75 grs",
+									"precio": 1300,									
+									"caracteristicas": [										
 									],
-									"imagen": "https://placehold.co/400x300?text=Perfumeria+2"
+									"imagen": "./assets/crema-dental-colgate.png"
 								},
 								{
-									"id": 16,
-									"nombre": "Producto Perfumería 3",
-									"descripcion": "Tamaño 750ml",
-									"precio": 890,
-									"caracteristicas": [
-										"Formato: Pack x14",
-										"Tamaño: 750ml"
+									"id": 14,
+									"nombre": "Crema dental pepsodent",
+									"descripcion": "Whitening 90 grs",
+									"precio": 1300,									
+									"caracteristicas": [										
 									],
-									"imagen": "https://placehold.co/400x300?text=Perfumeria+3"
+									"imagen": "./assets/crema-dental-pepsodent-whithing.png"
 								},
 								{
-									"id": 17,
-									"nombre": "Producto Perfumería 4",
-									"descripcion": "Presentación estándar",
-									"precio": 700,
-									"caracteristicas": [
-										"Cantidad: 3 unidades"
+									"id": 14,
+									"nombre": "Jabón LUX en barra ",
+									"descripcion": "70 grs PACK 4und",
+									"precio": 1600,
+									"precio_unitario":400,									
+									"caracteristicas": [										
 									],
-									"imagen": "https://placehold.co/400x300?text=Perfumeria+4"
-								},
-								{
-									"id": 18,
-									"nombre": "Producto Perfumería 5",
-									"descripcion": "Formato grande",
-									"precio": 1000,
-									"caracteristicas": [
-										"Cantidad: 1 unidad",
-										"Tamaño: Grande"
-									],
-									"imagen": "https://placehold.co/400x300?text=Perfumeria+5"
-								},
-								{
-									"id": 19,
-									"nombre": "Producto Perfumería 6",
-									"descripcion": "Tamaño mediano",
-									"precio": 350,
-									"caracteristicas": [
-										"Formato: Pack x13",
-										"Tamaño: Mediano"
-									],
-									"imagen": "https://placehold.co/400x300?text=Perfumeria+6"
-								},
-								{
-									"id": 20,
-									"nombre": "Producto Perfumería 7",
-									"descripcion": "Premium",
-									"precio": 1300,
-									"caracteristicas": [
-										"Cantidad: Unidad",
-										"Calidad: Premium"
-									],
-									"imagen": "https://placehold.co/400x300?text=Perfumeria+7"
-								},
-								{
-									"id": 21,
-									"nombre": "Producto Perfumería 8",
-									"descripcion": "Económico",
-									"precio": 1100,
-									"caracteristicas": [
-										"Cantidad: Unidad",
-										"Tipo: Económico"
-									],
-									"imagen": "https://placehold.co/400x300?text=Perfumeria+8"
-								},
+									"imagen": "https://placehold.co/400x300?text=Jabon+Lux"
+								},																
 								{
 									"id": 22,
 									"nombre": "Preservativos Kingdom",
@@ -289,6 +238,52 @@
 										"Cantidad: Unidad"
 									],
 									"imagen": "./assets/test-de-embarazo.png"
+								},
+								{
+									"id": 14,
+									"nombre": "Toalla Humeda BABYSEC",
+									"descripcion": "45und",
+									"precio": 950,
+									"caracteristicas": [										
+									],
+									"imagen": "https://placehold.co/400x300?text=Toalla+Humeda+BABYSEC"
+								},
+								{
+									"id": 14,
+									"nombre": "Toalla LADYSOFT morada",
+									"descripcion": "8 und",
+									"precio": 1100,
+									"caracteristicas": [										
+									],
+									"imagen": "https://placehold.co/400x300?text=Toalla+LADYSOFT"
+								},
+								{
+									"id": 14,
+									"nombre": "Toalla LADYSOFT noche",
+									"descripcion": "7 und",
+									"precio": 850,
+									"caracteristicas": [										
+									],
+									"imagen": "https://placehold.co/400x300?text=Toalla+LADYSOFT"
+								},
+								{
+									"id": 14,
+									"nombre": "Toalla LADYSOFT verde",
+									"descripcion": "7 und",
+									"precio": 850,
+									"caracteristicas": [										
+									],
+									"imagen": "https://placehold.co/400x300?text=Toalla+LADYSOFT"
+								}
+								,
+								{
+									"id": 14,
+									"nombre": "VAPORAL",
+									"descripcion": "12 und - Inhalador",
+									"precio": 850,
+									"caracteristicas": [										
+									],
+									"imagen": "https://placehold.co/400x300?text=Toalla+LADYSOFT"
 								}
 							]
 						}
@@ -317,7 +312,7 @@
 										"Precio unitario: $180",
 										"Valor display: $3.600 (20 × $180)"
 									],
-									"imagen": "./assets/encendedor-ronson-display.jpg"
+									"imagen": "./assets/encendedor-ronson-display.png"
 								},
 								{
 									"id": 25,
@@ -353,7 +348,7 @@
 					]
 				},
 				{
-					"name": "Adhesivos",
+					"name": "Bazar",
 					"colors": {
 						"primary": "bg-green-600",
 						"secondary": "bg-green-400",
@@ -363,6 +358,32 @@
 					"subcategorias": [
 						{
 							"name": "General",
+							"productos":[
+								{
+									"id":100,
+									"nombre":"Parche Curita Cure Band 100und",
+									"descripcion":"",
+									"precio":1700,
+									"imagen": "https://placehold.co/400x300?text=Parche+Curita"
+								},
+								{
+									"id":100,
+									"nombre":"Cinta Embalaje 100mts",
+									"descripcion":"",
+									"precio":950,
+									"imagen": "https://placehold.co/400x300?text=Cinta+Embalaje+100mts"
+								},
+								{
+									"id":100,
+									"nombre":"Cinta Embalaje 50mts",
+									"descripcion":"",
+									"precio":750,
+									"imagen": "https://placehold.co/400x300?text=Cinta+Embalaje+50mts"
+								}
+							]
+						},
+						{
+							"name": "Adhesivos",
 							"productos": [
 								{
 									"id": 26,
@@ -405,20 +426,7 @@
 		"header": {
 			"title": "Catálogo",
 			"subtitle": "Medios de Pago"
-		},
-		"content": {
-			"cuentas": [
-				{
-					"name": "Banco Scotiabank",
-					"data": {
-						"type": "Corriente",
-						"number": "990308082",
-						"rz": "BAZAR Y PAQUETERIA DAISY MONTENEGRO E.I.R.L.",
-						"rut": "77.998.347-1"
-					}
-				}
-			]
-		},
+		},		
 		"footer": {
 			"copyright": "© 2025 Catálogo",
 			"aviso": "Todos los precios están sujetos a cambios sin previo aviso",
