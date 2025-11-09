@@ -1,84 +1,104 @@
 import m from 'mithril'
+import debounce from 'lodash.debounce'
 import inputSearch from './inputSearch.js'
 import numeral from 'numeral'
+import localNumeral from './localNumeral.js'
 
+numeral.register('locale', 'es-cl', localNumeral )
+numeral.locale('es-cl')
 
+var valueSearch = ''
+var handleChildInputChange = (vl) =>  valueSearch = vl
+/**
+ * Filtra el array de categorías, subcategorías y productos 
+ * basado en un término de búsqueda, manteniendo la estructura.
+ */
+function filterForSearch(data, name) {
+    // 1. Normaliza el término de búsqueda a minúsculas para que no sea sensible
+    const searchTerm = name.toLowerCase();
 
-numeral.register('locale', 'es-cl', {
-    delimiters: {
-        // En Chile se usa el punto (.) para los miles
-        thousands: '.',
-        // En Chile se usa la coma (,) para los decimales
-        decimal: ','
-    },
-    abbreviations: {
-        // Abreviaciones comunes en español, aunque a veces no se usan tanto como en inglés
-        thousand: 'mil',
-        million: 'millón',
-        billion: 'mil millones', // o 'millardo' aunque es menos común
-        trillion: 'billón'
-    },
-    ordinal : function (number) {
-        // Función para el ordinal, en español se usa 'º' o 'ª'
-        var remainder = number % 100;
-        return (remainder >= 11 && remainder <= 13) ? 'º' : ['º', 'ª', 'º', 'ª', 'º', 'ª', 'º', 'ª', 'º', 'ª'][number % 10];
-        /*
-        Alternativa más simple pero menos precisa (solo usa 'º'):
-        return 'º';
-        */
-    },
-    currency: {
-        // Símbolo del Peso Chileno
-        symbol: '$'
-    }
-});
+    // 2. Recorre las categorías principales usando map
+    return data.map(category => {
+        
+        // 3. Recorre las subcategorías usando map
+        const filteredSubcategories = category.subcategorias.map(subcategory => {
+            
+            // 4. Filtra los productos que coinciden con el término de búsqueda
+            const matchingProducts = subcategory.productos.filter(product =>
+                product.nombre.toLowerCase().includes(searchTerm)
+            );
 
-// Activar la configuración local chilena
-numeral.locale('es-cl');
+            // 5. Si hay productos que coinciden, retorna una *nueva* subcategoría
+            //    copiando sus propiedades y asignando solo los productos filtrados.
+            if (matchingProducts.length > 0) {
+                return { 
+                    ...subcategory, 
+                    productos: matchingProducts 
+                };
+            }
+            // 6. Si no hay productos, retorna null para esta subcategoría
+            return null;
+        }).filter(sub => sub !== null); // 7. Limpia las subcategorías que quedaron en null
 
-const cssMain = "main.main-home",
-cssH2 = "h2.poppins-bold"
+        // 8. Si esta categoría tiene subcategorías con productos...
+        if (filteredSubcategories.length > 0) {
+            // 9. Retorna una *nueva* categoría con las subcategorías filtradas
+            return { 
+                ...category, 
+                subcategorias: filteredSubcategories 
+            };
+        }
+        // 10. Si no, retorna null para esta categoría
+        return null;
+    }).filter(cat => cat !== null); // 11. Limpia las categorías que quedaron en null
+}
+
 
 const itemCard = {
     view:function(vnode){        
         const precio = vnode.attrs.precio        
         const precio_unitario = vnode.attrs.precio_unitario || null;        
         const primary = vnode.attrs.primary
-        return m("div.card-item.poppins-semibold",
-            m("div.card-item-image",m("img",{src:vnode.attrs.imagen})),
-            m("div.card-item-content",
-                m("h4",vnode.attrs.nombre),
-                m("p.content-desc",vnode.attrs.descripcion),                
-                m("p.content-price",{class:primary},m("span.content-price-text", numeral(precio).format("$0,0") )),
-                (precio_unitario != null) ? m("p.content-price-unitario.poppins-regular","Precio Unitario: "+numeral(precio_unitario).format("$0,0")) : void(0)
+        return m('div.card-item.poppins-semibold',
+            m('div.card-item-image',m('img',{src:vnode.attrs.imagen})),
+            m('div.card-item-content',
+                m('h4',vnode.attrs.nombre),
+                m('p.content-desc',vnode.attrs.descripcion),                
+                m('p.content-price',{class:primary},m('span.content-price-text', numeral(precio).format('$0,0') )),
+                (precio_unitario != null) ? m('p.content-price-unitario.poppins-regular','Precio Unitario: '+numeral(precio_unitario).format('$0,0')) : void(0)
                 ),
         );
     }
 }
 
 
-const content = {
-    view:(vnode)=>{
-        window.scrollTo({top:0,behavior:"smooth"});
-        return m( "main.main-home" ,
-            m(inputSearch),
-            vnode.attrs["categorias"].map((category)=>{
+
+const content = {        
+    view:(vnode)=>{        
+        window.scrollTo({top:0,behavior:'smooth'})
+
+        return m('main.main-home',
+            m(inputSearch,{
+                value: valueSearch,
+                onValueChange: handleChildInputChange
+            }),
+            filterForSearch(vnode.attrs['categorias'],valueSearch).map( category =>{
             
             const primary = category.colors.primary,
             secondary = category.colors.secondary,
-            textPrimary =    category.colors["text-primary"]; 
+            textPrimary =    category.colors['text-primary']; 
 
-            return m("section",
-            m("div",
-                m("div",{class:primary}),
-                m(cssH2,category.name)
+            return m('section',
+            m('div',
+                m('div',{class:primary}),
+                m('h2.poppins-bold',category.name)
             ),            
-            m("div",
-                category["subcategorias"].map((sub)=>{                                        
+            m('div',
+                category['subcategorias'].map( sub =>{                                        
                     return [
-                        m("div",m("div",{class:primary}),m("h3.poppins-bold",sub.name)),
-                        m("div",
-                            sub["productos"].map(function(producto){
+                        m('div',m('div',{class:primary}),m('h3.poppins-bold',sub.name)),
+                        m('div',
+                            sub['productos'].map(function(producto){
                                 return m(itemCard,{...producto,...{primary:textPrimary}} )
                             })
                         )                        
@@ -90,6 +110,5 @@ const content = {
         )        
     }
 }
-
 
 export default content;

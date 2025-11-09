@@ -20,7 +20,7 @@
 							"productos": [
 								{
 									"id": 1,
-									"nombre": "Bolsa Camiseta Mini",
+									"nombre": "Bolsas Camiseta Mini",
 									"descripcion": "Tamaño compacto para compras pequeñas",
 									"precio": 650,
 									"caracteristicas": [
@@ -32,7 +32,7 @@
 								},
 								{
 									"id": 2,
-									"nombre": "Bolsa Camiseta Mediana",
+									"nombre": "Bolsas Camiseta Mediana",
 									"descripcion": "Tamaño estándar para uso diario",
 									"precio": 750,
 									"caracteristicas": [
@@ -44,7 +44,7 @@
 								},
 								{
 									"id": 3,
-									"nombre": "Bolsa Camiseta Grande",
+									"nombre": "Bolsas Camiseta Grande",
 									"descripcion": "Tamaño grande para mayor capacidad",
 									"precio": 1300,
 									"caracteristicas": [
@@ -56,7 +56,7 @@
 								},
 								{
 									"id": 4,
-									"nombre": "Bolsa Camiseta Jumbo",
+									"nombre": "Bolsas Camiseta Jumbo",
 									"descripcion": "Tamaño extra grande para cargas pesadas",
 									"precio": 2300,
 									"caracteristicas": [
@@ -79,7 +79,7 @@
 								},
 								{
 									"id": 6,
-									"nombre": "Botillera",
+									"nombre": "Bolsas Botillera",
 									"descripcion": "Para bebidas y botellas",
 									"precio": 2500,
 									"caracteristicas": [
@@ -90,7 +90,7 @@
 								},
 								{
 									"id": 7,
-									"nombre": "Bolsa para Ensaladas",
+									"nombre": "Bolsas para Ensaladas",
 									"descripcion": "Ideal para alimentos frescos",
 									"precio": 900,
 									"caracteristicas": [
@@ -102,7 +102,7 @@
 								},
 								{
 									"id": 8,
-									"nombre": "Bolsa Taco Manga",
+									"nombre": "Bolsas Taco Manga",
 									"descripcion": "Manga con 10 paquetes de 100 unidades",
 									"precio": 4500,
 									"precio_unitario": 500,
