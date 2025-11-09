@@ -1,4 +1,5 @@
 import m from 'mithril'
+import inputSearch from './inputSearch.js'
 import numeral from 'numeral'
 
 
@@ -58,7 +59,9 @@ const itemCard = {
 
 const content = {
     view:(vnode)=>{
+        window.scrollTo({top:0,behavior:"smooth"});
         return m( "main.main-home" ,
+            m(inputSearch),
             vnode.attrs["categorias"].map((category)=>{
             
             const primary = category.colors.primary,
@@ -69,7 +72,7 @@ const content = {
             m("div",
                 m("div",{class:primary}),
                 m(cssH2,category.name)
-            ),
+            ),            
             m("div",
                 category["subcategorias"].map((sub)=>{                                        
                     return [

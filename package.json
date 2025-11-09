@@ -10,6 +10,7 @@
     "@tailwindcss/cli": "^4.1.17",
     "clipboard": "^2.0.11",
     "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
     "lucide-static": "^0.552.0",
     "mithril": "^2.3.7",
     "numeral": "^2.0.6",

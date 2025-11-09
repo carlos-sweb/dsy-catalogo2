@@ -58,6 +58,7 @@ function getItem(key,value){
 }
 
 function getMain(){
+    window.scrollTo({top:0,behavior:"smooth"});
     return m("main.mdp-card-container.poppins-regular",
      // Card Map loop
      cuentas.map(function(cuenta){

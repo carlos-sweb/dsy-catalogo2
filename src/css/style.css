@@ -118,7 +118,7 @@ body{
   margin: 0px;
 }
 .main-home{
-  @apply max-w-7xl mx-auto px-4 py-12;
+  @apply max-w-7xl mx-auto px-4 pb-12;
 }  
 .main-home>section{
   @apply mb-20;
@@ -273,4 +273,9 @@ body{
 }
 .mdp-button:hover{
     @apply bg-blue-700 shadow-lg;
+}
+
+.input-search{
+  @apply w-full text-xl px-6 py-4 pr-32 rounded-xl border-2 border-gray-300  transition-all;
+  @apply focus:border-blue-500 focus:outline-none focus:ring-4 focus:ring-blue-200;
 }
