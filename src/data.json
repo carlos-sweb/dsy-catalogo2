@@ -217,7 +217,7 @@
 									"precio_unitario":400,									
 									"caracteristicas": [										
 									],
-									"imagen": "https://placehold.co/400x300?text=Jabon+Lux"
+									"imagen": "./assets/jabon-lux-pack-4.png"
 								},																
 								{
 									"id": 22,
