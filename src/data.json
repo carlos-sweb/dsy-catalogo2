@@ -189,7 +189,7 @@
 									"precio_unitario":350,
 									"caracteristicas": [										
 									],
-									"imagen": "https://placehold.co/400x300?text=Cepillo+colgate"
+									"imagen": "./assets/cepillo-colgate-13.png"
 								},
 								{
 									"id": 14,
@@ -246,25 +246,25 @@
 									"precio": 950,
 									"caracteristicas": [										
 									],
-									"imagen": "https://placehold.co/400x300?text=Toalla+Humeda+BABYSEC"
+									"imagen": "./assets/toalla-humeda-babysec.png"
 								},
 								{
 									"id": 14,
 									"nombre": "Toalla LADYSOFT morada",
-									"descripcion": "8 und",
+									"descripcion": "Tela suave con alas - 8 und",
 									"precio": 1100,
 									"caracteristicas": [										
 									],
-									"imagen": "https://placehold.co/400x300?text=Toalla+LADYSOFT"
+									"imagen": "./assets/toalla-morada-tela-suave.png"
 								},
 								{
 									"id": 14,
 									"nombre": "Toalla LADYSOFT noche",
-									"descripcion": "7 und",
+									"descripcion": "Tela ultraseca con alas - 7 und",
 									"precio": 850,
 									"caracteristicas": [										
 									],
-									"imagen": "https://placehold.co/400x300?text=Toalla+LADYSOFT"
+									"imagen": "./assets/lady-soft-noche-ultraseca.png"
 								},
 								{
 									"id": 14,
@@ -273,17 +273,18 @@
 									"precio": 850,
 									"caracteristicas": [										
 									],
-									"imagen": "https://placehold.co/400x300?text=Toalla+LADYSOFT"
+									"imagen": "./assets/lady-soft-normal-verde.png"
 								}
 								,
 								{
 									"id": 14,
 									"nombre": "VAPORAL",
 									"descripcion": "12 und - Inhalador",
-									"precio": 850,
+									"precio": 1500,
+									"precio_unitario":125,
 									"caracteristicas": [										
 									],
-									"imagen": "https://placehold.co/400x300?text=Toalla+LADYSOFT"
+									"imagen": "./assets/vaporal-12.png"
 								}
 							]
 						}
@@ -364,21 +365,21 @@
 									"nombre":"Parche Curita Cure Band 100und",
 									"descripcion":"",
 									"precio":1700,
-									"imagen": "https://placehold.co/400x300?text=Parche+Curita"
+									"imagen": "./assets/parche-curita-cure-band.png"
 								},
 								{
 									"id":100,
 									"nombre":"Cinta Embalaje 100mts",
 									"descripcion":"",
 									"precio":950,
-									"imagen": "https://placehold.co/400x300?text=Cinta+Embalaje+100mts"
+									"imagen": "./assets/cinta-de-embalaje-100mts.png"
 								},
 								{
 									"id":100,
 									"nombre":"Cinta Embalaje 50mts",
 									"descripcion":"",
 									"precio":750,
-									"imagen": "https://placehold.co/400x300?text=Cinta+Embalaje+50mts"
+									"imagen": "./assets/cinta-de-embalaje-50mts.png"
 								}
 							]
 						},
