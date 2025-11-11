@@ -18,7 +18,7 @@ src/css/tailwindcss-style.css \
 node_modules/@fontsource/poppins/*.css \
 -o public/style.min.css
 
-esbuild src/app.js \
+esbuild src/app.jsx \
 --bundle \
 --minify \
 --target=chrome58,firefox57,safari11,edge16 \

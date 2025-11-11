@@ -90,4 +90,5 @@ function getMain(){
 const mdpContent ={
     view:(vnode)=> getMain()    
 }
-export { mdpContent as default } 
+
+export default mdpContent

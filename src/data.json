@@ -123,14 +123,27 @@
 								{
 									"id": 10,
 									"nombre": "Vaso 300cc",
-									"descripcion": "Económico y resistente",
-									"precio": 600,
+									"descripcion": "100 und - Económico y resistente",
+									"precio": 1300,
+									"precio_unitario": 13,
 									"caracteristicas": [
 										"Cantidad: 100 unidades",
 										"Material: Polietileno"
 									],
-									"imagen": "https://placehold.co/400x300?text=Vaso+Polietileno"
+									"imagen": "./assets/vaso-300cc.png"
 								},
+								{
+									"id": 12,
+									"nombre": "Vaso 500cc",
+									"descripcion": "50 und - Presentación grande",
+									"precio": 2000,
+									"precio_unitario":40,
+									"caracteristicas": [
+										"Cantidad: 50 unidades",
+										"Tamaño: Grande"
+									],
+									"imagen": "./assets/vaso-500cc.png"
+								},								
 								{
 									"id": 11,
 									"nombre": "Guante Vinilo TM/TL",
@@ -141,29 +154,7 @@
 										"Material: Vinilo",
 										"Tamaño: Mediano/Grande"
 									],
-									"imagen": "https://placehold.co/400x300?text=Vaso+Vinilo"
-								},
-								{
-									"id": 12,
-									"nombre": "Vaso 500cc",
-									"descripcion": "Presentación compacta",
-									"precio": 1300,
-									"caracteristicas": [
-										"Cantidad: 50 unidades",
-										"Tamaño: Grande"
-									],
-									"imagen": "https://placehold.co/400x300?text=Vaso+Pequeno"
-								},
-								{
-									"id": 13,
-									"nombre": "Vaso Premium",
-									"descripcion": "Calidad superior",
-									"precio": 1300,
-									"caracteristicas": [
-										"Cantidad: 25 unidades",
-										"Calidad: Premium"
-									],
-									"imagen": "https://placehold.co/400x300?text=Vaso+Premium"
+									"imagen": "./assets/guante-vinilo-tm-tl.png"
 								}
 							]
 						}

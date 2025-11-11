@@ -1,11 +1,14 @@
 import "share-api-polyfill"
 import ClipboardJS from "clipboard"
 import m from 'mithril'
-import header from './Components/header.js'
-import content from './Components/content.js'
-import mdpContent from './Components/mdpContent.js'
-import footer from './Components/footer.js'
-import data from './data.json' with { type: "json" };
+
+import header from './Components/header.jsx'
+import content from './Components/content.jsx'
+import mdpContent from './Components/mdpContent.jsx'
+import footer from './Components/footer.jsx'
+
+import data from './data.json' with { type: "json" }
+
 
 var Home = {
 	oncreate:function(){		
