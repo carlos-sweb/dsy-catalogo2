@@ -114,6 +114,9 @@ export default {
         return(
             <main class='mdp-card-container poppins-regular'>
              { cuentas.map((cuenta)=>(<Card cuenta={cuenta} />)) }
+             <div class='mdp-button-box'>
+                <a class='mdp-button' href='#!/'>{m.trust(ArrowLeft)}Volver al Catálogo</a>
+             </div>   
             </main>
         )
     }

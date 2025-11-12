@@ -46,9 +46,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
 			"/medios-de-pago":{
 				render:()=>{
 					
-					const {title,subtitle} = data["mdp"]["header"]
-					const {aviso ,copyright , link } = data["mdp"]["footer"]
-
+					const {title,subtitle} = data["mdp"]["header"],
+					{aviso ,copyright , link } = data["mdp"]["footer"]
 					return m(Mediosdepago,{
 							title:title,
 							subtitle:subtitle,
@@ -57,13 +56,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 							link:link
 						})
 				}
-			}
-			/*"/medios-de-pago":()=>({
-					view:function(){
-						return m(Mediosdepago,{title:"Hack",subtitle:"mmmmm"})
-					}
-				})
-			*/
+			}			
 		}
 	)
 	
