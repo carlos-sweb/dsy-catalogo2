@@ -80,13 +80,13 @@
 								{
 									"id": 5,
 									"nombre": "Rollo Pull Pack",
-									"descripcion": "Sistema de rollo continuo",
+									"descripcion": "700 und, Sistema de rollo continuo",
 									"precio": 7000,
 									"caracteristicas": [
 										"Cantidad: 700 unidades",
 										"Tipo: Rollo continuo"
 									],
-									"imagen": "https://placehold.co/400x300?text=Rollo+Pull+Pack"
+									"imagen": "./assets/rollo-pullpack-700.png"
 								},
 								{
 									"id": 7,
@@ -94,7 +94,7 @@
 									"descripcion": "Ideal para alimentos frescos",
 									"precio": 900,
 									"caracteristicas": [
-										"Tamaño: 15 x 20 cm",
+										"Tamaño: 15 x 35 cm",
 										"Cantidad: 100 unidades por paquete",
 										"Ideal para ensaladas y alimentos frescos"
 									],
@@ -114,6 +114,18 @@
 										"Total: 1.000 unidades por manga"
 									],
 									"imagen": "https://placehold.co/400x300?text=Bolsa+Taco+Manga"
+								},
+								{
+									"id": 11,
+									"nombre": "Guante Vinilo TM/TL",
+									"descripcion": "Tamaño mediano/grande",
+									"precio": 3900,
+									"caracteristicas": [
+										"Cantidad: 100 unidades",
+										"Material: Vinilo",
+										"Tamaño: Mediano/Grande"
+									],
+									"imagen": "./assets/guante-vinilo-tm-tl.png"
 								}
 							]
 						},
@@ -143,19 +155,19 @@
 										"Tamaño: Grande"
 									],
 									"imagen": "./assets/vaso-500cc.png"
-								},								
+								},
 								{
-									"id": 11,
-									"nombre": "Guante Vinilo TM/TL",
-									"descripcion": "Tamaño mediano/grande",
-									"precio": 3900,
+									"id": 12,
+									"nombre": "Vasos Términos 10 oz",
+									"descripcion": "25 und",
+									"precio": 1300,
+									"precio_unitario":52,
 									"caracteristicas": [
-										"Cantidad: 100 unidades",
-										"Material: Vinilo",
-										"Tamaño: Mediano/Grande"
+										"Cantidad: 50 unidades",
+										"Tamaño: Grande"
 									],
-									"imagen": "./assets/guante-vinilo-tm-tl.png"
-								}
+									"imagen": "./assets/vaso-termico-10oz.png"
+								}							
 							]
 						}
 					]
