@@ -159,7 +159,7 @@ body{
   @apply shadow-xl;
 }
 .card-item-image{
-  @apply bg-blue-50 h-56 flex items-center justify-center overflow-hidden;
+  @apply h-56 flex items-center justify-center overflow-hidden;
 }  
 .card-item-image img{
   @apply max-w-full max-h-full object-contain;

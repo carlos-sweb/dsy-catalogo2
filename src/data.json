@@ -28,7 +28,7 @@
 										"Tipo: Camiseta",
 										"Ideal para compras pequeñas"
 									],
-									"imagen": "https://placehold.co/400x300?text=Camiseta+Mini"
+									"imagen": "./assets/bolsa-mini.png"
 								},
 								{
 									"id": 2,
@@ -40,7 +40,7 @@
 										"Tipo: Camiseta",
 										"Uso diario estándar"
 									],
-									"imagen": "https://placehold.co/400x300?text=Camiseta+Mediana"
+									"imagen": "./assets/bolsa-mediana.png"
 								},
 								{
 									"id": 3,
@@ -52,7 +52,7 @@
 										"Tipo: Camiseta",
 										"Mayor capacidad de carga"
 									],
-									"imagen": "https://placehold.co/400x300?text=Camiseta+Grande"
+									"imagen": "./assets/bolsa-grande.png"
 								},
 								{
 									"id": 4,
@@ -64,7 +64,18 @@
 										"Tipo: Camiseta",
 										"Ideal para cargas pesadas y voluminosas"
 									],
-									"imagen": "https://placehold.co/400x300?text=Camiseta+Jumbo"
+									"imagen": "./assets/bolsa-jumbo.png"
+								},								
+								{
+									"id": 6,
+									"nombre": "Bolsas Botillera",
+									"descripcion": "Para bebidas y botellas",
+									"precio": 2500,
+									"caracteristicas": [
+										"Cantidad: 100 unidades",
+										"Uso: Bebidas y botellas"
+									],
+									"imagen": "./assets/bolsa-botillera.png"
 								},
 								{
 									"id": 5,
@@ -76,17 +87,6 @@
 										"Tipo: Rollo continuo"
 									],
 									"imagen": "https://placehold.co/400x300?text=Rollo+Pull+Pack"
-								},
-								{
-									"id": 6,
-									"nombre": "Bolsas Botillera",
-									"descripcion": "Para bebidas y botellas",
-									"precio": 2500,
-									"caracteristicas": [
-										"Cantidad: 100 unidades",
-										"Uso: Bebidas y botellas"
-									],
-									"imagen": "https://placehold.co/400x300?text=Botillera"
 								},
 								{
 									"id": 7,

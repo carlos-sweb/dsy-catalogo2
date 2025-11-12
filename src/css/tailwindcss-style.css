@@ -309,7 +309,6 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-color: var(--color-blue-50, oklch(97% 0.014 254.604));
 }
 .card-item-image img {
   max-height: 100%;

@@ -1,4 +1,7 @@
 #/user/bin/bash
+
+# rembg i chemmer-12.png output.png
+#  magick output.png -background white -flatten salida-blanca.png
 # magick encendedor-ronson-raw.png -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -strip -resize 600x output_optimized.png
 
 html-minifier \
