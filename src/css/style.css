@@ -162,7 +162,7 @@ body{
   @apply bg-blue-50 h-56 flex items-center justify-center overflow-hidden;
 }  
 .card-item-image img{
-  @apply w-full h-full object-fill;
+  @apply max-w-full max-h-full object-contain;
 }
 .card-item-content{
   @apply p-6;

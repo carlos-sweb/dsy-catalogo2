@@ -21,7 +21,8 @@ node_modules/@fontsource/poppins/*.css \
 esbuild src/app.jsx \
 --bundle \
 --minify \
---target=chrome58,firefox57,safari11,edge16 \
+--format=iife \
+--target=es2020 \
 --jsx-factory=m --jsx-fragment="'['" \
 --loader:.js=jsx \
 --outdir=public \

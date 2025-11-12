@@ -1,7 +1,7 @@
 import m from 'mithril'
 import debounce from 'lodash.debounce'
 
-import filterForSearch from './filterForSearch.js'
+import filterForSearch from './../helpers/filterForSearch.js'
 import InputSearch from './inputSearch.jsx'
 import ItemCard from './itemCard.jsx'
 

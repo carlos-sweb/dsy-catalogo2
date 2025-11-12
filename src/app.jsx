@@ -7,6 +7,9 @@ import content from './Components/content.jsx'
 import mdpContent from './Components/mdpContent.jsx'
 import footer from './Components/footer.jsx'
 
+
+import Mediosdepago from './pages/mdp.jsx'
+
 import data from './data.json' with { type: "json" }
 
 
@@ -24,27 +27,45 @@ var Home = {
 	}
 }
 
-var Mediosdepago = {
-	oncreate:function(){		
-		document.body.style.display = 'block';
-		document.body.classList.add('animate__animated','animate__fadeIn')
-		var clipboard = new ClipboardJS('#mdp-copy');
-	},
-	view: function() {
-		return [
-			m(header,data["mdp"]["header"]),
-			m(mdpContent,data["mdp"]["content"]),
-			m(footer,data["mdp"]["footer"])
-		]
-	}
-}
 
-document.addEventListener('DOMContentLoaded', function() {	
-	setTimeout(function(){
-		m.route(document.body, "/", {
-			"/": Home,
-			"/medios-de-pago": Mediosdepago,
-		})
-	})
+
+
+document.addEventListener('DOMContentLoaded', ()=>{	
+	
+	m.route(
+		document.body,
+		"/",
+		{
+			"/":()=>{
+				return {
+					view:function(){
+						return m(Home)
+					}
+				}
+			},
+			"/medios-de-pago":{
+				render:()=>{
+					
+					const {title,subtitle} = data["mdp"]["header"]
+					const {aviso ,copyright , link } = data["mdp"]["footer"]
+
+					return m(Mediosdepago,{
+							title:title,
+							subtitle:subtitle,
+							aviso:aviso,
+							copyright:copyright,
+							link:link
+						})
+				}
+			}
+			/*"/medios-de-pago":()=>({
+					view:function(){
+						return m(Mediosdepago,{title:"Hack",subtitle:"mmmmm"})
+					}
+				})
+			*/
+		}
+	)
+	
 });
 

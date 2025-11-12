@@ -1,6 +1,7 @@
 import m from 'mithril'
 import {Copy,ArrowLeft,Share2} from 'lucide-static'
 import cuentas from "./../json/medios-de-pago.json"
+
 /**
  * Intenta compartir información usando la Web Share API (nativa del navegador).
  * Si no está disponible, proporciona un mensaje de error o una alternativa (aunque en este ejemplo solo muestra un error).
@@ -42,53 +43,78 @@ function compartirInformacion(data,banco) {
 
 
 const textCuenta = {
-    "type":"Tipo de Cuenta",
-    "number":"Número de cuenta",
-    "rz":"Razón Social",
-    "rut":"R.U.T"
+    "type":"Tipo de Cuenta","number":"Número de cuenta",
+    "rz":"Razón Social", "rut":"R.U.T"
 }
 
+function GetItem(){
+    return {
+        view:(vnode)=>{
+        const {key,value} = vnode.attrs    
+        const text = textCuenta[key];
+        return (
+            <div class='mdp-card-content-item'>
+                <p class='text-sm text-gray-600 font-semibold mb-1'>{text}</p>
+                <p class='text-xl text-gray-800'>{value}</p>
+            </div>
+        )    
+        }
+    }
+    
+    
+}
 
 function getItem(key,value){
     const text = textCuenta[key];
-    return m("div.mdp-card-content-item",[
-        m("p.text-sm text-gray-600 font-semibold mb-1 ", text , text == "number" ? "|Copy":void(0) ),
-        m("p.text-xl text-gray-800", value)
-    ]);
+    return (
+        <div class='mdp-card-content-item'>
+            <p class='text-sm text-gray-600 font-semibold mb-1'>{text}</p>
+            <p class='text-xl text-gray-800'>{value}</p>
+        </div>
+        )    
 }
 
-function getMain(){
-    window.scrollTo({top:0,behavior:"smooth"});
-    return m("main.mdp-card-container.poppins-regular",
-     // Card Map loop
-     cuentas.map(function(cuenta){
-        // Card
-        return m("div.mdp-card",
-        // Card Header
-        [m("div.mdp-card-header",[
-                m("h2",cuenta.name),
-                m("button#mdp-copy",{
-                    "data-clipboard-text":`${cuenta.name}\nCuenta ${cuenta.data.type}\n${cuenta.data.number}\n${cuenta.data.rz}\n${cuenta.data.rut}`
-                }
-                ,m("span",m.trust(Copy))),
-         ]),
-         m("div.mdp-card-content",Object.keys(cuenta.data).map((key)=>getItem(key,cuenta.data[key]))),
-         m("div.mdp-card-footer",[
-            m("p","Por favor, envíe el comprobante de transferencia para confirmar su pedido"),
-            m("button",{
-                onclick:()=>compartirInformacion(cuenta.data,cuenta.name)
-            },m("span.h-6 w-6 text-blue-600 inline-block",m.trust(Share2)))
-         ])]
+
+function Card(){
+    return {
+        view:(vnode)=>{
+            const {data,name} = vnode.attrs.cuenta
+            const TextValue = `${name}\nCuenta ${data.type}\n${data.number}\n${data.rz}\n${data.rut}`            
+            return(             
+            <div class='mdp-card' >
+                <div class='mdp-card-header'>
+                    <h2>{name}</h2>
+                    <button 
+                        id="mdp-copy"  
+                        data-clipboard-text={TextValue} >
+                    <span>{m.trust(Copy)}</span>
+                    </button>                
+                </div>
+                <div class='mdp-card-content'>
+                    {Object.keys(data).map( key =>(<GetItem key={key} value={data[key]} />) )}
+                </div>
+                <div class='mdp-card-footer'>
+                    <p>Por favor, envíe el comprobante de transferencia para confirmar su pedido</p>
+                    <button 
+                        onclick={compartirInformacion.bind(data,name)}>
+                        <span class="h-6 w-6 text-blue-600 inline-block">{m.trust(Share2)}</span>
+                    </button>
+                </div>
+            </div>
+
+            )
+        }
+    }
+}
+
+
+export default {
+    view:()=>{
+        window.scrollTo({top:0,behavior:"smooth"});
+        return(
+            <main class='mdp-card-container poppins-regular'>
+             { cuentas.map((cuenta)=>(<Card cuenta={cuenta} />)) }
+            </main>
         )
-     }),
-     m("div.mdp-button-box",
-        m("a.mdp-button",{href:"/#!/"},[m("span.h-5 w-5 inline-block",m.trust(ArrowLeft)),"Volver al Catálogo"]))   
-     
-    )
+    }
 }
-
-const mdpContent ={
-    view:(vnode)=> getMain()    
-}
-
-export default mdpContent
