@@ -114,7 +114,12 @@
 										"Total: 1.000 unidades por manga"
 									],
 									"imagen": "https://placehold.co/400x300?text=Bolsa+Taco+Manga"
-								},
+								}								
+							]
+						},
+						{
+							"name":"Guantes",
+							"productos":[
 								{
 									"id": 11,
 									"nombre": "Guante Vinilo TM/TL",
@@ -126,6 +131,16 @@
 										"Tamaño: Mediano/Grande"
 									],
 									"imagen": "./assets/guante-vinilo-tm-tl.png"
+								},
+								{
+									"id": 11,
+									"nombre": "Guante Polietileno",
+									"descripcion": " 100 und - Tamaño ideal para manipular productos como cecinas y quesos",
+									"precio": 600,
+									"precio_unitario":6,
+									"caracteristicas":[										
+									],
+									"imagen": "./assets/guantes-polietileno.png"
 								}
 							]
 						},
@@ -184,6 +199,14 @@
 						{
 							"name":"Cuidado Personal",
 							"productos":[{
+									"id": 14,
+									"nombre": "Mentholatum - 12grs",
+									"descripcion":"Alivio Temporal De La Congestion Nasal, Picaduras De Insectos, Picazon",
+									"precio": 800,									
+									"caracteristicas": [										
+									],
+									"imagen": "./assets/mentholatum.png"
+								},{
 									"id": 14,
 									"nombre": "Maq. De Afeitar Schick 4",
 									"descripcion": "Hombre - 10 Und",
