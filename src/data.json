@@ -137,9 +137,9 @@
 									"nombre": "Vaso 300cc",
 									"descripcion": "100 und - Económico y resistente",
 									"precio": 1300,
-									"precio_unitario": 13,
+									"precio_unitario": 26,
 									"caracteristicas": [
-										"Cantidad: 100 unidades",
+										"Cantidad: 50 unidades",
 										"Material: Polietileno"
 									],
 									"imagen": "./assets/vaso-300cc.png"
@@ -241,7 +241,7 @@
 									"id": 14,
 									"nombre": "Crema dental pepsodent",
 									"descripcion": "Whitening 90 grs",
-									"precio": 1300,									
+									"precio": 950,									
 									"caracteristicas": [										
 									],
 									"imagen": "./assets/crema-dental-pepsodent-whithing.png"
@@ -306,7 +306,7 @@
 								{
 									"id": 14,
 									"nombre": "Toalla LADYSOFT verde",
-									"descripcion": "7 und",
+									"descripcion": "8 und",
 									"precio": 850,
 									"caracteristicas": [										
 									],
