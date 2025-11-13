@@ -28,8 +28,6 @@ var Home = {
 }
 
 
-
-
 document.addEventListener('DOMContentLoaded', ()=>{	
 	
 	m.route(

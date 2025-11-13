@@ -1,5 +1,7 @@
 import m from 'mithril'
 
+
+
 const inputSearch = function(){
 	return {
 		view:(vnode)=>(
@@ -9,7 +11,7 @@ const inputSearch = function(){
 					type='text' 
 					placeholder='Buscar' 
 					value={vnode.attrs.value} 
-					oninput={(e)=>vnode.attrs.onValueChange&&vnode.attrs.onValueChange(e.target.value)} 
+					oninput={(e)=>vnode.attrs.onValueChange&&vnode.attrs.onValueChange(e.target.value)} 					
 				/>
 			</div>
 		)
