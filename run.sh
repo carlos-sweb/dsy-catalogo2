@@ -38,6 +38,6 @@ esbuild src/app.jsx \
 --jsx-factory=m --jsx-fragment="'['" \
 --loader:.js=jsx \
 --outdir=public \
---watch \
---serve=4000 \
---servedir=public
+#--watch \
+#--serve=4000 \
+#--servedir=public
