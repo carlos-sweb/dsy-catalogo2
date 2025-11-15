@@ -98,14 +98,14 @@
 										"Cantidad: 100 unidades por paquete",
 										"Ideal para ensaladas y alimentos frescos"
 									],
-									"imagen": "https://placehold.co/400x300?text=Bolsa+Ensaladas"
+									"imagen": "./assets/bolsa-de-ensalada.png"
 								},
 								{
 									"id": 8,
 									"nombre": "Bolsas Taco Manga",
 									"descripcion": "Manga con 10 paquetes de 100 unidades",
 									"precio": 4500,
-									"precio_unitario": 500,
+									"precio_unitario": 450,
 									"caracteristicas": [
 										"Presentación: Manga de 10 paquetes",
 										"Cada paquete: 100 unidades",
@@ -113,7 +113,7 @@
 										"Valor manga completa: $4.500 (10 × $500)",
 										"Total: 1.000 unidades por manga"
 									],
-									"imagen": "https://placehold.co/400x300?text=Bolsa+Taco+Manga"
+									"imagen": "./assets/bolsa-taco-manga.png"
 								}								
 							]
 						},
