@@ -1,9 +1,10 @@
 #!/usr/bin/bash
 #rsvg-convert -f png -w 600 -o fondo.png svg/fondo.svg
 # rembg i chemmer-12.png output.png
-#  magick output.png -background white -flatten salida-blanca.png
+# magick output.png -background white -flatten salida-blanca.png
 # magick encendedor-ronson-raw.png -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -strip -resize 600x output_optimized.png
 # magick -flop
+#
 
 # Generar styled-system de Panda CSS
 npx panda codegen
@@ -37,6 +38,6 @@ esbuild src/app.jsx \
 --jsx-factory=m --jsx-fragment="'['" \
 --loader:.js=jsx \
 --outdir=public \
---watch
-#--serve=5000 \
-#--servedir=public
+--watch \
+--serve=4000 \
+--servedir=public

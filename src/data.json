@@ -122,15 +122,29 @@
 							"productos":[
 								{
 									"id": 11,
-									"nombre": "Guante Vinilo TM/TL",
-									"descripcion": "Tamaño mediano/grande",
-									"precio": 3900,
+									"nombre": "Guante Nitrilo Talla L",
+									"descripcion": "Tamaño Grande",
+									"precio": 4900,
+									"precio_unitario":490,
 									"caracteristicas": [
 										"Cantidad: 100 unidades",
 										"Material: Vinilo",
-										"Tamaño: Mediano/Grande"
+										"Tamaño: Mediano"
 									],
-									"imagen": "./assets/guante-vinilo-tm-tl.png"
+									"imagen": "./assets/guante-de-nitrilo.png"
+								},
+								{
+									"id": 11,
+									"nombre": "Guante Vinilo Talla M",
+									"descripcion": "Tamaño Mediano",
+									"precio": 3900,
+									"precio_unitario":390,
+									"caracteristicas": [
+										"Cantidad: 100 unidades",
+										"Material: Vinilo",
+										"Tamaño: Mediano"
+									],
+									"imagen": "./assets/guante-de-vinilo.png"
 								},
 								{
 									"id": 11,
