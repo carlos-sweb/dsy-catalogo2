@@ -1,0 +1,15 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="tablero_eficiente" 
+             width="2" 
+             height="2"
+             patternUnits="userSpaceOnUse">
+      
+      <rect width="2" height="2" fill="#E0E0E0" />
+      <rect width="1" height="1" fill="#F5F5F5" />
+      <rect x="1" y="1" width="1" height="1" fill="#F5F5F5" />
+    </pattern>
+  </defs>
+
+  <rect width="24" height="24" fill="url(#tablero_eficiente)" />
+</svg>

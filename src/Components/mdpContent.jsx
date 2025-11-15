@@ -1,5 +1,6 @@
 import m from 'mithril'
 import {Copy,ArrowLeft,Share2} from 'lucide-static'
+import { css } from '../../styled-system/css'
 import cuentas from "./../json/medios-de-pago.json"
 
 /**
@@ -50,28 +51,58 @@ const textCuenta = {
 function GetItem(){
     return {
         view:(vnode)=>{
-        const {key,value} = vnode.attrs    
+        const {key,value} = vnode.attrs
         const text = textCuenta[key];
         return (
-            <div class='mdp-card-content-item'>
-                <p class='text-sm text-gray-600 font-semibold mb-1'>{text}</p>
-                <p class='text-xl text-gray-800'>{value}</p>
+            <div class={css({
+                mb: '4',
+                borderLeftWidth: '4px',
+                borderLeftStyle: 'solid',
+                borderColor: 'blue.600',
+                py: '2',
+                pl: '6'
+            })}>
+                <p class={css({
+                    fontSize: 'sm',
+                    color: 'gray.600',
+                    fontWeight: 'semibold',
+                    mb: '1'
+                })}>{text}</p>
+                <p class={css({
+                    fontSize: 'xl',
+                    color: 'gray.800'
+                })}>{value}</p>
             </div>
-        )    
+        )
         }
     }
-    
-    
+
+
 }
 
 function getItem(key,value){
     const text = textCuenta[key];
     return (
-        <div class='mdp-card-content-item'>
-            <p class='text-sm text-gray-600 font-semibold mb-1'>{text}</p>
-            <p class='text-xl text-gray-800'>{value}</p>
+        <div class={css({
+            mb: '4',
+            borderLeftWidth: '4px',
+            borderLeftStyle: 'solid',
+            borderColor: 'blue.600',
+            py: '2',
+            pl: '6'
+        })}>
+            <p class={css({
+                fontSize: 'sm',
+                color: 'gray.600',
+                fontWeight: 'semibold',
+                mb: '1'
+            })}>{text}</p>
+            <p class={css({
+                fontSize: 'xl',
+                color: 'gray.800'
+            })}>{value}</p>
         </div>
-        )    
+        )
 }
 
 
@@ -79,25 +110,92 @@ function Card(){
     return {
         view:(vnode)=>{
             const {data,name} = vnode.attrs.cuenta
-            const TextValue = `${name}\nCuenta ${data.type}\n${data.number}\n${data.rz}\n${data.rut}`            
-            return(             
-            <div class='mdp-card' >
-                <div class='mdp-card-header'>
-                    <h2>{name}</h2>
-                    <button 
-                        id="mdp-copy"  
-                        data-clipboard-text={TextValue} >
-                    <span>{m.trust(Copy)}</span>
-                    </button>                
+            const TextValue = `${name}\nCuenta ${data.type}\n${data.number}\n${data.rz}\n${data.rut}`
+            return(
+            <div class={css({
+                bg: 'white',
+                rounded: 'xl',
+                shadow: 'md',
+                overflow: 'hidden',
+                mb: '8'
+            })}>
+                <div class={css({                    
+                    bgGradient: 'to-r',
+                    gradientFrom: 'blue.600',
+                    gradientTo: 'blue.800',
+                    px: '8',
+                    py: '6',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',                    
+                })}>
+                    <h2 class={css({
+                        fontSize: '3xl',
+                        fontWeight: 'bold',
+                        color: 'white'
+                    })}>{name}</h2>
+                    <button
+                        id="mdp-copy"
+                        data-clipboard-text={TextValue}
+                        class={css({
+                            outline: 'none',
+                            bg: 'transparent',
+                            borderStyle: 'none',
+                            p: '2',
+                            rounded: 'lg',
+                            transition: 'colors',
+                            cursor: 'pointer',
+                            _focus: {
+                                outline: 'none'
+                            }
+                        })}>
+                    <span class={css({
+                        h: '6',
+                        w: '6',
+                        color: 'white',
+                        display: 'inline-block'
+                    })}>{m.trust(Copy)}</span>
+                    </button>
                 </div>
-                <div class='mdp-card-content'>
+                <div class={css({ p: '8' })}>
                     {Object.keys(data).map( key =>(<GetItem key={key} value={data[key]} />) )}
                 </div>
-                <div class='mdp-card-footer'>
-                    <p>Por favor, envíe el comprobante de transferencia para confirmar su pedido</p>
-                    <button 
-                        onclick={compartirInformacion.bind(data,name)}>
-                        <span class="h-6 w-6 text-blue-600 inline-block">{m.trust(Share2)}</span>
+                <div class={css({
+                    bg: 'gray.50',
+                    px: '8',
+                    py: '6',
+                    borderTopWidth: '1px',
+                    borderTopStyle: 'solid',
+                    borderColor: 'gray.200',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center'
+                })}>
+                    <p class={css({
+                        fontSize: 'sm',
+                        color: 'gray.600',
+                        flex: '1'
+                    })}>Por favor, envíe el comprobante de transferencia para confirmar su pedido</p>
+                    <button
+                        onclick={compartirInformacion.bind(data,name)}
+                        class={css({
+                            bg: 'transparent',
+                            borderStyle: 'none',
+                            ml: '4',
+                            p: '3',
+                            rounded: 'lg',
+                            transition: 'colors',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '2',
+                            cursor: 'pointer'
+                        })}>
+                        <span class={css({
+                            h: '6',
+                            w: '6',
+                            color: 'blue.600',
+                            display: 'inline-block'
+                        })}>{m.trust(Share2)}</span>
                     </button>
                 </div>
             </div>
@@ -112,11 +210,39 @@ export default {
     view:()=>{
         window.scrollTo({top:0,behavior:"smooth"});
         return(
-            <main class='mdp-card-container poppins-regular'>
+            <main class={css({
+                maxW: '4xl',
+                mx: 'auto',
+                px: '4',
+                py: '12',
+                fontFamily: 'poppins',
+                fontWeight: 'regular'
+            })}>
              { cuentas.map((cuenta)=>(<Card cuenta={cuenta} />)) }
-             <div class='mdp-button-box'>
-                <a class='mdp-button' href='#!/'>{m.trust(ArrowLeft)}Volver al Catálogo</a>
-             </div>   
+             <div class={css({
+                mt: '8',
+                textAlign: 'center'
+             })}>
+                <a class={css({
+                    display: 'inline-flex',
+                    cursor: 'pointer',
+                    alignItems: 'center',
+                    gap: '2',
+                    bg: 'blue.600',
+                    color: 'white',
+                    fontWeight: 'semibold',
+                    px: '8',
+                    py: '4',
+                    rounded: 'xl',
+                    transition: 'colors',
+                    shadow: 'md',
+                    textDecoration: 'none',
+                    _hover: {
+                        bg: 'blue.700',
+                        shadow: 'lg'
+                    }
+                })} href='#!/'>{m.trust(ArrowLeft)}Volver al Catálogo</a>
+             </div>
             </main>
         )
     }

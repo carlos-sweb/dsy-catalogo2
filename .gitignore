@@ -1,2 +1,6 @@
+./android-catalogo/node_modules
+./android-catalogo/platforms
 .node_modules
 .package
+styled-system
+public/panda.css

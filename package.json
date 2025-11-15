@@ -5,9 +5,13 @@
   "author": "Carlos Illesca",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "prepare": "panda codegen",
+    "dev": "panda --watch --outfile public/panda.css & esbuild src/app.jsx --bundle --outfile=public/app.js --watch",
+    "build": "panda codegen && bash run.sh"
+  },
   "dependencies": {
     "@fontsource/poppins": "^5.2.7",
-    "@tailwindcss/cli": "^4.1.17",
     "clipboard": "^2.0.11",
     "lodash": "^4.17.21",
     "lodash.debounce": "^4.0.8",
@@ -15,7 +19,9 @@
     "lucide-static": "^0.552.0",
     "mithril": "^2.3.7",
     "numeral": "^2.0.6",
-    "share-api-polyfill": "^1.1.1",
-    "tailwindcss": "^4.1.17"
+    "share-api-polyfill": "^1.1.1"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^1.5.0"
   }
 }

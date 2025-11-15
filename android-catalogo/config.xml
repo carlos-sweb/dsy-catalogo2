@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0"
+    id="cl.dsy.catalogo"
+    version="1.0.0">
+    <name>Catalogo</name>
+    <description>Catalogo Bazar y Paqueteria</description>
+    <author email="c4rl0sill3sc4@protonmail.com" href="https://www.cillesca.xyz">
+        Carlos-sweb
+    </author>
+
+    <content src="index.html" />
+
+    <!-- Security Related Settings -->
+    <access origin="https://cordova.apache.org" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <!-- Platform Configs & Platform Overriding Configs -->
+    <platform name="android">
+        
+
+        <preference name="AutoHideSplashScreen" value="true"/>
+        <preference name="SplashScreenDelay" value="0"/>
+        <preference name="FadeSplashScreen" value="false"/>
+        <preference name="FadeSplashScreenDuration" value="0"/>        
+        <preference name="BackgroundColor" value="#f9fafb"/> 
+        <preference name="SplashScreenBackgroundColor" value="#f9fafb"/>
+
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" 
+            value="res/android/splashscreen.xml"/>
+
+
+
+                
+        <icon src="res/android/ldpi.png" density="ldpi" />
+        <icon src="res/android/mdpi.png" density="mdpi" />
+        <icon src="res/android/hdpi.png" density="hdpi" />
+        <icon src="res/android/xhdpi.png" density="xhdpi" />
+        <icon src="res/android/xxhdpi.png" density="xxhdpi" />
+        <icon src="res/android/xxxhdpi.png" density="xxxhdpi" />
+    
+
+
+
+    </platform>
+    <platform name="ios"></platform>
+</widget>
