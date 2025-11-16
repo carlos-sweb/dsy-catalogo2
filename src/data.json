@@ -18,56 +18,31 @@
 						{
 							"name": "Bolsas",
 							"productos": [
-								{
-									"id": 1,
+								{									
 									"nombre": "Bolsas Camiseta Mini",
 									"descripcion": "Tamaño compacto para compras pequeñas",
-									"precio": 650,
-									"caracteristicas": [
-										"Tamaño: 28 x 35 cm",
-										"Tipo: Camiseta",
-										"Ideal para compras pequeñas"
-									],
+									"precio": 650,									
 									"imagen": "./assets/bolsa-mini.png"
 								},
-								{
-									"id": 2,
+								{									
 									"nombre": "Bolsas Camiseta Mediana",
 									"descripcion": "Tamaño estándar para uso diario",
-									"precio": 750,
-									"caracteristicas": [
-										"Tamaño: 35 x 40 cm",
-										"Tipo: Camiseta",
-										"Uso diario estándar"
-									],
+									"precio": 750,									
 									"imagen": "./assets/bolsa-mediana.png"
 								},
-								{
-									"id": 3,
+								{									
 									"nombre": "Bolsas Camiseta Grande",
 									"descripcion": "Tamaño grande para mayor capacidad",
-									"precio": 1300,
-									"caracteristicas": [
-										"Tamaño: 40 x 50 cm",
-										"Tipo: Camiseta",
-										"Mayor capacidad de carga"
-									],
+									"precio": 1300,									
 									"imagen": "./assets/bolsa-grande.png"
 								},
-								{
-									"id": 4,
+								{									
 									"nombre": "Bolsas Camiseta Jumbo",
 									"descripcion": "Tamaño extra grande para cargas pesadas",
-									"precio": 2300,
-									"caracteristicas": [
-										"Tamaño: 50 x 60 cm",
-										"Tipo: Camiseta",
-										"Ideal para cargas pesadas y voluminosas"
-									],
+									"precio": 2300,									
 									"imagen": "./assets/bolsa-jumbo.png"
 								},								
-								{
-									"id": 6,
+								{									
 									"nombre": "Bolsas Botillera",
 									"descripcion": "Para bebidas y botellas",
 									"precio": 2500,
@@ -77,8 +52,7 @@
 									],
 									"imagen": "./assets/bolsa-botillera.png"
 								},
-								{
-									"id": 5,
+								{									
 									"nombre": "Rollo Pull Pack",
 									"descripcion": "700 und, Sistema de rollo continuo",
 									"precio": 7000,
@@ -88,8 +62,7 @@
 									],
 									"imagen": "./assets/rollo-pullpack-700.png"
 								},
-								{
-									"id": 7,
+								{									
 									"nombre": "Bolsas para Ensaladas 100und",
 									"descripcion": "Ideal para alimentos frescos",
 									"precio": 900,
@@ -100,19 +73,11 @@
 									],
 									"imagen": "./assets/bolsa-de-ensalada.png"
 								},
-								{
-									"id": 8,
+								{									
 									"nombre": "Bolsas Taco Manga",
 									"descripcion": "Manga con 10 paquetes de 100 unidades",
 									"precio": 4500,
-									"precio_unitario": 450,
-									"caracteristicas": [
-										"Presentación: Manga de 10 paquetes",
-										"Cada paquete: 100 unidades",
-										"Precio por paquete: $500",
-										"Valor manga completa: $4.500 (10 × $500)",
-										"Total: 1.000 unidades por manga"
-									],
+									"precio_unitario": 450,									
 									"imagen": "./assets/bolsa-taco-manga.png"
 								}								
 							]
@@ -121,39 +86,26 @@
 							"name":"Guantes",
 							"productos":[
 								{
-									"id": 11,
+									
 									"nombre": "Guante Nitrilo Talla L",
 									"descripcion": "Tamaño Grande",
 									"precio": 4900,
-									"precio_unitario":49,
-									"caracteristicas": [
-										"Cantidad: 100 unidades",
-										"Material: Vinilo",
-										"Tamaño: Mediano"
-									],
+									"precio_unitario":49,									
 									"imagen": "./assets/guante-de-nitrilo.png"
 								},
 								{
-									"id": 11,
+									
 									"nombre": "Guante Vinilo Talla M",
 									"descripcion": "Tamaño Mediano",
 									"precio": 3900,
-									"precio_unitario":39,
-									"caracteristicas": [
-										"Cantidad: 100 unidades",
-										"Material: Vinilo",
-										"Tamaño: Mediano"
-									],
+									"precio_unitario":39,									
 									"imagen": "./assets/guante-de-vinilo.png"
 								},
-								{
-									"id": 11,
+								{									
 									"nombre": "Guante Polietileno",
 									"descripcion": " 100 und - Tamaño ideal para manipular productos como cecinas y quesos",
 									"precio": 600,
-									"precio_unitario":6,
-									"caracteristicas":[										
-									],
+									"precio_unitario":6,									
 									"imagen": "./assets/guantes-polietileno.png"
 								}
 							]
@@ -162,39 +114,24 @@
 							"name": "Vasos",
 							"productos": [
 								{
-									"id": 10,
 									"nombre": "Vaso 300cc",
 									"descripcion": "50 und - Económico y resistente",
 									"precio": 1300,
-									"precio_unitario": 26,
-									"caracteristicas": [
-										"Cantidad: 50 unidades",
-										"Material: Polietileno"
-									],
+									"precio_unitario": 26,									
 									"imagen": "./assets/vaso-300cc.png"
 								},
-								{
-									"id": 12,
+								{									
 									"nombre": "Vaso 500cc",
 									"descripcion": "50 und - Presentación grande",
 									"precio": 2000,
-									"precio_unitario":40,
-									"caracteristicas": [
-										"Cantidad: 50 unidades",
-										"Tamaño: Grande"
-									],
+									"precio_unitario":40,									
 									"imagen": "./assets/vaso-500cc.png"
 								},
-								{
-									"id": 12,
+								{									
 									"nombre": "Vasos Términos 10 oz",
 									"descripcion": "25 und",
 									"precio": 1300,
-									"precio_unitario":52,
-									"caracteristicas": [
-										"Cantidad: 50 unidades",
-										"Tamaño: Grande"
-									],
+									"precio_unitario":52,									
 									"imagen": "./assets/vaso-termico-10oz.png"
 								}							
 							]
@@ -212,51 +149,36 @@
 					"subcategorias": [
 						{
 							"name":"Cuidado Personal",
-							"productos":[{
-									"id": 14,
+							"productos":[{									
 									"nombre": "Mentholatum - 12grs",
 									"descripcion":"Alivio Temporal De La Congestion Nasal, Picaduras De Insectos, Picazon",
-									"precio": 800,									
-									"caracteristicas": [										
-									],
+									"precio": 800,																		
 									"imagen": "./assets/mentholatum.png"
-								},{
-									"id": 14,
+								},{									
 									"nombre": "Maq. De Afeitar Gillete 2",
-									"descripcion": "Hombre - 14 Und",
-									"precio": 9800,
-									"precio_unitario":700,
-									"caracteristicas": [										
-									],
+									"descripcion": "Hombre - 12 Und",
+									"precio": 8400,
+									"precio_unitario":700,									
 									"imagen": "./assets/hombre-gillete-2.png"
-								},{
-									"id": 14,
+								},{									
 									"nombre": "Maq. De Afeitar Schick 4",
 									"descripcion": "Hombre - 10 Und",
 									"precio": 8900,
-									"precio_unitario":890,
-									"caracteristicas": [										
-									],
+									"precio_unitario":890,									
 									"imagen": "./assets/hombre-schick-4.png"
 								},
-								{
-									"id": 14,
+								{									
 									"nombre": "Maq. De Afeitar Schick 4",
 									"descripcion": "Mujer - 10 Und",
 									"precio": 8900,
-									"precio_unitario":890,
-									"caracteristicas": [										
-									],
+									"precio_unitario":890,									
 									"imagen": "./assets/mujer-schick-4.png"
 								},
-								{
-									"id": 14,
+								{									
 									"nombre": "Maq. De Afeitar Venus",
 									"descripcion": "Mujer - 8 Un",
 									"precio": 7120,
-									"precio_unitario":890,
-									"caracteristicas": [										
-									],
+									"precio_unitario":890,									
 									"imagen": "./assets/venus.png"
 								}
 							]
@@ -264,109 +186,74 @@
 						{
 							"name": "General",
 							"productos": [								
-								{
-									"id": 14,
+								{									
 									"nombre": "Cepillo colgate",
 									"descripcion": "Tira con 13 Unidades",
 									"precio": 4550,
-									"precio_unitario":350,
-									"caracteristicas": [										
-									],
+									"precio_unitario":350,									
 									"imagen": "./assets/cepillo-colgate-13.png"
 								},
-								{
-									"id": 14,
+								{									
 									"nombre": "Crema dental Colgate",
 									"descripcion": "75 grs",
-									"precio": 1300,									
-									"caracteristicas": [										
-									],
+									"precio": 1300,																		
 									"imagen": "./assets/crema-dental-colgate.png"
 								},
-								{
-									"id": 14,
+								{									
 									"nombre": "Crema dental pepsodent",
 									"descripcion": "Whitening 90 grs",
-									"precio": 950,									
-									"caracteristicas": [										
-									],
+									"precio": 950,																		
 									"imagen": "./assets/crema-dental-pepsodent-whithing.png"
 								},
-								{
-									"id": 14,
+								{									
 									"nombre": "Jabón LUX en barra ",
 									"descripcion": "70 grs PACK 4und",
 									"precio": 1600,
-									"precio_unitario":400,									
-									"caracteristicas": [										
-									],
+									"precio_unitario":400,																		
 									"imagen": "./assets/jabon-lux-pack-4.png"
 								},																
-								{
-									"id": 22,
+								{									
 									"nombre": "Preservativos Kingdom",
 									"descripcion": "Seguro y Resistente",
-									"precio": 700,
-									"caracteristicas": [
-										"Cantidad: Unidad"
-									],
+									"precio": 700,									
 									"imagen": "./assets/kingdom.png"
 								},
-								{
-									"id": 23,
+								{									
 									"nombre": "Test de Emabarzo",
 									"descripcion": "Rapido y Efectivo",
-									"precio": 700,
-									"caracteristicas": [
-										"Cantidad: Unidad"
-									],
+									"precio": 700,									
 									"imagen": "./assets/test-de-embarazo.png"
 								},
-								{
-									"id": 14,
+								{									
 									"nombre": "Toalla Humeda BABYSEC",
 									"descripcion": "45und",
-									"precio": 950,
-									"caracteristicas": [										
-									],
+									"precio": 950,									
 									"imagen": "./assets/toalla-humeda-babysec.png"
 								},
-								{
-									"id": 14,
+								{									
 									"nombre": "Toalla LADYSOFT morada",
 									"descripcion": "Tela suave con alas - 8 und",
-									"precio": 1100,
-									"caracteristicas": [										
-									],
+									"precio": 1100,									
 									"imagen": "./assets/toalla-morada-tela-suave.png"
 								},
-								{
-									"id": 14,
+								{									
 									"nombre": "Toalla LADYSOFT noche",
 									"descripcion": "Tela ultraseca con alas - 7 und",
-									"precio": 850,
-									"caracteristicas": [										
-									],
+									"precio": 850,									
 									"imagen": "./assets/lady-soft-noche-ultraseca.png"
 								},
-								{
-									"id": 14,
+								{									
 									"nombre": "Toalla LADYSOFT verde",
 									"descripcion": "8 und",
-									"precio": 850,
-									"caracteristicas": [										
-									],
+									"precio": 850,									
 									"imagen": "./assets/lady-soft-normal-verde.png"
 								}
 								,
-								{
-									"id": 14,
+								{									
 									"nombre": "VAPORAL",
 									"descripcion": "12 und - Inhalador",
 									"precio": 1500,
-									"precio_unitario":125,
-									"caracteristicas": [										
-									],
+									"precio_unitario":125,									
 									"imagen": "./assets/vaporal-12.png"
 								}
 							]
@@ -385,46 +272,25 @@
 						{
 							"name": "General",
 							"productos": [
-								{
-									"id": 24,
+								{									
 									"nombre": "Encendedor Ronson ClearLite",
 									"descripcion": "Encendedor premium - Display completo",
 									"precio": 3600,
-									"precio_unitario": 180,
-									"caracteristicas": [
-										"Presentación: Display de 20 unidades",
-										"Precio unitario: $180",
-										"Valor display: $3.600 (20 × $180)"
-									],
+									"precio_unitario": 180,									
 									"imagen": "./assets/encendedor-ronson-display.png"
 								},
-								{
-									"id": 25,
+								{									
 									"nombre": "Papel Fino Ronson",
 									"descripcion": "Papelillos rolling - Caja de 25 libritos",
 									"precio": 10000,
 									"precio_unitario": 400,
-									"caracteristicas": [
-										"Presentación: Display de 25 libritos",
-										"Precio unitario: $400 por librito",
-										"Valor display: $10.000 (25 × $400)",
-										"Contenido: 50 papeles por librito"
-									],
 									"imagen": "./assets/papel-fino-ronson.png"
 								},
-								{
-									"id": 31,
+								{									
 									"nombre": "Encendedor Lin económico",
 									"descripcion": "Encendedor - 5 variedades de color",
 									"precio": 2700,
-									"precio_unitario": 135,
-									"caracteristicas": [
-										"Presentación: Display de 20 unidades",
-										"Precio unitario: $135 por unidad",
-										"Valor display: $2.700 (20 × $135)",
-										"5 tonos de color disponibles",
-										"Producto económico pero resistente"
-									],
+									"precio_unitario": 135,									
 									"imagen": "./assets/pack-encendedor-lin.png"
 								}
 							]
@@ -443,23 +309,20 @@
 						{
 							"name": "General",
 							"productos":[
-								{
-									"id":100,
+								{									
 									"nombre":"Parche Curita Cure Band 100und",
 									"descripcion":"",
 									"precio":1700,
 									"precio_unitario":17,
 									"imagen": "./assets/parche-curita-cure-band.png"
 								},
-								{
-									"id":100,
+								{									
 									"nombre":"Cinta Embalaje 100mts",
 									"descripcion":"",
 									"precio":950,
 									"imagen": "./assets/cinta-de-embalaje-100mts.png"
 								},
-								{
-									"id":100,
+								{									
 									"nombre":"Cinta Embalaje 50mts",
 									"descripcion":"",
 									"precio":750,
@@ -470,26 +333,18 @@
 						{
 							"name": "Adhesivos",
 							"productos": [
-								{
-									"id": 26,
+								{									
 									"nombre": "Chemmer - Display 12",
 									"descripcion": "Presentación compacta",
 									"precio": 2000,
-									"precio_unitario":166,
-									"caracteristicas": [
-										"Rapido"
-									],
+									"precio_unitario":166,									
 									"imagen": "./assets/chemmer-12.png"
 								},
-								{
-									"id": 27,
+								{									
 									"nombre": "La Gotita",
 									"descripcion": "Lo que La Gotita pega, nada, nada lo despega",
 									"precio": 9900,
-									"precio_unitario":1650,
-									"caracteristicas": [
-										"Medida: 100 metros"
-									],
+									"precio_unitario":1650,									
 									"imagen": "./assets/la-gotita.png"
 								}
 							]
