@@ -64,12 +64,14 @@ export default function(){
                         })}>{numeral(precio).format('$0,0')}</span>
                         {precio_unitario && <p class={css({
                           textAlign: 'center',
-                          fontSize: 'md',
-                          color: 'gray.500',
+                          fontSize: '2xl',
+                          color: colorText,
                           mt: '2',
                           fontFamily: 'poppins',
-                          fontWeight: 'regular'
-                        })}>Precio Unitario: {numeral(precio_unitario).format('$0,0')}</p>}
+                          fontWeight: 'bold'
+                        })}><span class={css({
+                          fontSize:'xl'
+                        })}>$&nbsp;&nbsp;</span>{numeral(precio_unitario).format('0,0')}&nbsp;<span class={css({fontStyle:'italic',fontSize:'xl'})}>c/u</span></p>}
                     </p>
                 </div>
             </div>
