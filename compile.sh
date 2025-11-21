@@ -7,10 +7,10 @@
 #
 
 # Generar styled-system de Panda CSS
-npx panda codegen
+bunx panda codegen
 
 # Generar CSS estático de Panda
-npx panda cssgen --outfile public/style.css
+bunx panda cssgen --outfile public/style.css
 
 # Minificar HTML
 html-minifier \

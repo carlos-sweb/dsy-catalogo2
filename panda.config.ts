@@ -154,7 +154,7 @@ export default defineConfig({
   outExtension: 'js',
 
   // Emitir CSS estático
-  emitPackage: true,
+  emitPackage: false,
 
   // Preflight (reset CSS)
   preflight: true,

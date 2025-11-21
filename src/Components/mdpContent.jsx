@@ -1,5 +1,5 @@
 import m from 'mithril'
-import {Copy,ArrowLeft,Share2} from 'lucide-static'
+import {Copy,ArrowLeft,Share2} from 'lucide-mithril'
 import { css } from '../../styled-system/css'
 import cuentas from "./../json/medios-de-pago.json"
 
@@ -154,7 +154,7 @@ function Card(){
                         w: '6',
                         color: 'white',
                         display: 'inline-block'
-                    })}>{m.trust(Copy)}</span>
+                    })}><Copy/></span>
                     </button>
                 </div>
                 <div class={css({ p: '8' })}>
@@ -195,7 +195,7 @@ function Card(){
                             w: '6',
                             color: 'blue.600',
                             display: 'inline-block'
-                        })}>{m.trust(Share2)}</span>
+                        })}><Share2/></span>
                     </button>
                 </div>
             </div>
@@ -241,7 +241,7 @@ export default {
                         bg: 'blue.700',
                         shadow: 'lg'
                     }
-                })} href='#!/'>{m.trust(ArrowLeft)}Volver al Catálogo</a>
+                })} href='#!/'><ArrowLeft/>Volver al Catálogo</a>
              </div>
             </main>
         )

@@ -1,5 +1,4 @@
 import m from 'mithril'
-import debounce from 'lodash.debounce'
 import { css } from '../../styled-system/css'
 
 import filterForSearch from './../helpers/filterForSearch.js'
