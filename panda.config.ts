@@ -161,6 +161,29 @@ export default defineConfig({
 
   // Global CSS
   globalCss: {
+    '.footer':{
+          mt: '5',
+          bg: 'gray.800',
+          color: 'white',
+          py: '10',
+          fontFamily: 'poppins',
+          fontWeight: 'regular'
+    },
+    '.footer > div':{
+      maxW: '7xl',
+      mx: 'auto',
+      px: '4',
+      textAlign: 'center'
+    },
+    '.footer > div > a':{
+        color: 'blue.400',
+        textDecoration: 'underline',
+        fontSize: 'md',
+        transition: 'colors',
+        _hover: {
+          color: 'blue.300'
+        }
+      },
     '#iconGoAdmin':{
         position:'absolute',
         top:0,
