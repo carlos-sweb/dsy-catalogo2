@@ -161,6 +161,14 @@ export default defineConfig({
 
   // Global CSS
   globalCss: {
+    '#iconGoAdmin':{
+        position:'absolute',
+        top:0,
+        right:0,
+        m:'30px',
+        zIndex:'10',
+        stroke:'blue.600'
+    },
     '.header-page':{
         bgGradient: 'to-r',
         gradientFrom: 'blue.600',
@@ -170,10 +178,20 @@ export default defineConfig({
         fontFamily: 'poppins',
         fontWeight: 'medium'
     },
+    '.header-page > div':{
+      maxW: '7xl',
+      mx: 'auto',
+      px: '4'
+    },
     '.header-page h1':{
         fontSize: '5xl',
         fontWeight: 'bold',
         mb: '3'
+    },
+    'header-page p':{    
+      fontSize: 'xl',
+      color: 'blue.100'
+      
     },
     'html, body': {
       margin: 0,
