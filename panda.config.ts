@@ -161,11 +161,26 @@ export default defineConfig({
 
   // Global CSS
   globalCss: {
+    '.header-page':{
+        bgGradient: 'to-r',
+        gradientFrom: 'blue.600',
+        gradientTo: 'blue.800',
+        color: 'white',
+        py: '6',        
+        fontFamily: 'poppins',
+        fontWeight: 'medium'
+    },
+    '.header-page h1':{
+        fontSize: '5xl',
+        fontWeight: 'bold',
+        mb: '3'
+    },
     'html, body': {
       margin: 0,
       padding: 0,
       minHeight: '100vh',
-      backgroundColor: '#f3f4f6'
+      backgroundColor: '#f3f4f6',
+      userSelect: 'none'
     },
     body: {
       display: 'block !important'

@@ -29,6 +29,7 @@ cleancss \
 node_modules/@fontsource/poppins/*.css \
 -o public/fonts.min.css
 
+yq src/data.yaml -o json > src/example.json
 # Bundle con esbuild (incluye automáticamente Panda CSS)
 esbuild src/app.jsx \
 --bundle \

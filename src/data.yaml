@@ -1,0 +1,248 @@
+site:
+  header:
+    title: Catálogo
+    subtitle: Productos de calidad para su negocio
+  content:
+    categorias:
+      - name: Plásticos
+        colors:
+          primary: blue.600
+          secondary: blue.400
+          text-bg: blue.100
+          text-primary: blue.600
+        subcategorias:
+          - name: Bolsas
+            productos:
+              - nombre: Bolsas Camiseta Mini
+                descripcion: Tamaño compacto para compras pequeñas
+                precio: 650
+                imagen: ./assets/bolsa-mini.png
+              - nombre: Bolsas Camiseta Mediana
+                descripcion: Tamaño estándar para uso diario
+                precio: 750
+                imagen: ./assets/bolsa-mediana.png
+              - nombre: Bolsas Camiseta Grande
+                descripcion: Tamaño grande para mayor capacidad
+                precio: 1300
+                imagen: ./assets/bolsa-grande.png
+              - nombre: Bolsas Camiseta Jumbo
+                descripcion: Tamaño extra grande para cargas pesadas
+                precio: 2300
+                imagen: ./assets/bolsa-jumbo.png
+              - nombre: Bolsas Botillera
+                descripcion: Para bebidas y botellas
+                precio: 2500
+                caracteristicas:
+                  - 'Cantidad: 100 unidades'
+                  - 'Uso: Bebidas y botellas'
+                imagen: ./assets/bolsa-botillera.png
+              - nombre: Rollo Pull Pack
+                descripcion: 700 und, Sistema de rollo continuo
+                precio: 7000
+                caracteristicas:
+                  - 'Cantidad: 700 unidades'
+                  - 'Tipo: Rollo continuo'
+                imagen: ./assets/rollo-pullpack-700.png
+              - nombre: Bolsas para Ensaladas 100und - 15 x 35 cm
+                descripcion: Ideal para alimentos frescos
+                precio: 900
+                caracteristicas:
+                  - 'Tamaño: 15 x 35 cm'
+                  - 'Cantidad: 100 unidades por paquete'
+                  - Ideal para ensaladas y alimentos frescos
+                imagen: ./assets/bolsa-de-ensalada.png
+              - nombre: Bolsas Taco Manga
+                descripcion: Manga con 10 paquetes de 100 unidades
+                precio: 4500
+                precio_unitario: 450
+                imagen: ./assets/bolsa-taco-manga.png
+          - name: Guantes
+            productos:
+              - nombre: Guante Nitrilo Talla L
+                descripcion: Tamaño Grande
+                precio: 4900
+                precio_unitario: 49
+                imagen: ./assets/guante-de-nitrilo.png
+              - nombre: Guante Vinilo Talla M
+                descripcion: Tamaño Mediano
+                precio: 3900
+                precio_unitario: 39
+                imagen: ./assets/guante-de-vinilo.png
+              - nombre: Guante Polietileno
+                descripcion: ' 100 und - Tamaño ideal para manipular productos como cecinas y quesos'
+                precio: 600
+                precio_unitario: 6
+                imagen: ./assets/guantes-polietileno.png
+          - name: Vasos
+            productos:
+              - nombre: Vaso 300cc
+                descripcion: 50 und - Económico y resistente
+                precio: 1300
+                precio_unitario: 26
+                imagen: ./assets/vaso-300cc.png
+              - nombre: Vaso 500cc
+                descripcion: 50 und - Presentación grande
+                precio: 2000
+                precio_unitario: 40
+                imagen: ./assets/vaso-500cc.png
+              - nombre: Vasos Términos 10 oz
+                descripcion: 25 und
+                precio: 1300
+                precio_unitario: 52
+                imagen: ./assets/vaso-termico-10oz.png
+      - name: Perfumería
+        colors:
+          primary: pink.600
+          secondary: pink.400
+          text-bg: pink.100
+          text-primary: pink.600
+        subcategorias:
+          - name: Cuidado Personal
+            productos:
+              - nombre: Mentholatum - 12grs
+                descripcion: Alivio Temporal De La Congestion Nasal, Picaduras De Insectos, Picazon
+                precio: 800
+                imagen: ./assets/mentholatum.png
+              - nombre: Maq. De Afeitar Gillete 2
+                descripcion: Hombre - 12 Und
+                precio: 8400
+                precio_unitario: 700
+                imagen: ./assets/hombre-gillete-2.png
+              - nombre: Maq. De Afeitar Schick 4
+                descripcion: Hombre - 10 Und
+                precio: 8900
+                precio_unitario: 890
+                imagen: ./assets/hombre-schick-4.png
+              - nombre: Maq. De Afeitar Schick 4
+                descripcion: Mujer - 10 Und
+                precio: 8900
+                precio_unitario: 890
+                imagen: ./assets/mujer-schick-4.png
+              - nombre: Maq. De Afeitar Venus
+                descripcion: Mujer - 8 Un
+                precio: 7120
+                precio_unitario: 890
+                imagen: ./assets/venus.png
+          - name: General
+            productos:
+              - nombre: Cepillo colgate
+                descripcion: Tira con 13 Unidades
+                precio: 4550
+                precio_unitario: 350
+                imagen: ./assets/cepillo-colgate-13.png
+              - nombre: Crema dental Colgate
+                descripcion: 75 grs
+                precio: 1300
+                imagen: ./assets/crema-dental-colgate.png
+              - nombre: Crema dental pepsodent
+                descripcion: Whitening 90 grs
+                precio: 950
+                imagen: ./assets/crema-dental-pepsodent-whithing.png
+              - nombre: 'Jabón LUX en barra '
+                descripcion: 70 grs PACK 4und
+                precio: 1600
+                precio_unitario: 400
+                imagen: ./assets/jabon-lux-pack-4.png
+              - nombre: Preservativos Kingdom
+                descripcion: Seguro y Resistente
+                precio: 700
+                imagen: ./assets/kingdom.png
+              - nombre: Test de Emabarzo
+                descripcion: Rapido y Efectivo
+                precio: 700
+                imagen: ./assets/test-de-embarazo.png
+              - nombre: Toalla Humeda BABYSEC
+                descripcion: 45und
+                precio: 950
+                imagen: ./assets/toalla-humeda-babysec.png
+              - nombre: Toalla LADYSOFT morada
+                descripcion: Tela suave con alas - 8 und
+                precio: 1100
+                imagen: ./assets/toalla-morada-tela-suave.png
+              - nombre: Toalla LADYSOFT noche
+                descripcion: Tela ultraseca con alas - 7 und
+                precio: 850
+                imagen: ./assets/lady-soft-noche-ultraseca.png
+              - nombre: Toalla LADYSOFT verde
+                descripcion: 8 und
+                precio: 850
+                imagen: ./assets/lady-soft-normal-verde.png
+              - nombre: VAPORAL
+                descripcion: 12 und - Inhalador
+                precio: 1500
+                precio_unitario: 125
+                imagen: ./assets/vaporal-12.png
+      - name: Tabaquería
+        colors:
+          primary: yellow.600
+          secondary: yellow.400
+          text-bg: yellow.100
+          text-primary: yellow.600
+        subcategorias:
+          - name: General
+            productos:
+              - nombre: Encendedor Ronson ClearLite
+                descripcion: Encendedor premium - Display completo
+                precio: 3600
+                precio_unitario: 180
+                imagen: ./assets/encendedor-ronson-display.png
+              - nombre: Papel Fino Ronson
+                descripcion: Papelillos rolling - Caja de 25 libritos
+                precio: 10000
+                precio_unitario: 400
+                imagen: ./assets/papel-fino-ronson.png
+              - nombre: Encendedor Lin económico
+                descripcion: Encendedor - 5 variedades de color
+                precio: 2700
+                precio_unitario: 135
+                imagen: ./assets/pack-encendedor-lin.png
+      - name: Bazar
+        colors:
+          primary: green.600
+          secondary: green.400
+          text-bg: green.100
+          text-primary: green.600
+        subcategorias:
+          - name: General
+            productos:
+              - nombre: Parche Curita Cure Band 100und
+                descripcion: ""
+                precio: 1700
+                precio_unitario: 17
+                imagen: ./assets/parche-curita-cure-band.png
+              - nombre: Cinta Embalaje 100mts
+                descripcion: ""
+                precio: 950
+                imagen: ./assets/cinta-de-embalaje-100mts.png
+              - nombre: Cinta Embalaje 50mts
+                descripcion: ""
+                precio: 750
+                imagen: ./assets/cinta-de-embalaje-50mts.png
+          - name: Adhesivos
+            productos:
+              - nombre: Chemmer - Display 12
+                descripcion: Presentación compacta
+                precio: 2000
+                precio_unitario: 166
+                imagen: ./assets/chemmer-12.png
+              - nombre: La Gotita
+                descripcion: Lo que La Gotita pega, nada, nada lo despega
+                precio: 9900
+                precio_unitario: 1650
+                imagen: ./assets/la-gotita.png
+  footer:
+    copyright: © 2025 Catálogo
+    aviso: Todos los precios están sujetos a cambios sin previo aviso
+    link:
+      text: Medios de pago
+      url: '#!/medios-de-pago'
+mdp:
+  header:
+    title: Catálogo
+    subtitle: Medios de Pago
+  footer:
+    copyright: © 2025 Catálogo
+    aviso: Todos los precios están sujetos a cambios sin previo aviso
+    link:
+      text: Volver al Catálogo
+      url: '#!/'
