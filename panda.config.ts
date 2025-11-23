@@ -4,11 +4,14 @@ export default defineConfig({
   // Directorios donde Panda buscará clases
   include: [
     './src/**/*.{js,jsx,ts,tsx}',
-    './src/**/*.html'
+    './src/**/*.html',
+    './src/index.css'
   ],
 
   // Excluir
   exclude: [],
+  
+  outFile: "src/style.css",
 
   // Directorio de salida
   outdir: 'styled-system',

@@ -45,11 +45,12 @@ let ctx = await esbuild.context({
 })
 
 // Watch for changes
-//await buildCSS()
+
+await buildCSS()
 await ctx.watch()
 
 // Watch CSS changes
-/*
+
 const watcher = Bun.file('./src/styles.css')
 let lastCSS = await watcher.text()
 setInterval(async () => {
@@ -59,7 +60,7 @@ setInterval(async () => {
     lastCSS = currentCSS
   }
 }, 1000)
-*/
+
 
 
 const server = Bun.serve({
