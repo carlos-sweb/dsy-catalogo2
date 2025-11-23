@@ -1,5 +1,6 @@
 import { defineConfig } from '@pandacss/dev'
 
+
 export default defineConfig({
   // Directorios donde Panda buscará clases
   include: [
@@ -22,6 +23,12 @@ export default defineConfig({
   // Tema personalizado
   theme: {
     extend: {
+      keyframes:{
+         fadein: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' }
+        },
+      },
       tokens: {
         fonts: {
           poppins: { value: "'Poppins', sans-serif" }
@@ -227,7 +234,8 @@ export default defineConfig({
       userSelect: 'none'
     },
     body: {
-      display: 'block !important'
+      display: 'block !important',
+      animation: 'fadein 0.7s ease-in-out'
     },
     '*': {
       boxSizing: 'border-box'

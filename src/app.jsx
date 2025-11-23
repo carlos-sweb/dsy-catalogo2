@@ -16,11 +16,7 @@ import data from './data.json' with { type: "json" }
 
 
 
-var Home = {
-	oncreate:function(){		
-		document.body.style.display = 'block';
-		document.body.classList.add('animate__animated','animate__fadeIn')
-	},
+var Home = {	
 	view: function() {
 		return [
 			m(header,data['site']['header']),
