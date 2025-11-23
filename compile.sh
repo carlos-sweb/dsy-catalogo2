@@ -30,6 +30,10 @@ node_modules/@fontsource/poppins/*.css \
 -o public/fonts.min.css
 
 yq src/data.yaml -o json > src/example.json
+
+# Prepara los assets para esbuild
+bun run scripts/prepare-assets.js
+
 # Bundle con esbuild (incluye automáticamente Panda CSS)
 esbuild src/app.jsx \
 --bundle \
@@ -38,6 +42,13 @@ esbuild src/app.jsx \
 --target=es2020 \
 --jsx-factory=m --jsx-fragment="'['" \
 --loader:.js=jsx \
+--loader:.woff=file \
+--loader:.woff2=file \
+--loader:.svg=file \
+--loader:.ttf=file \
+--loader:.eot=file \
+--loader:.png=file \
+--asset-names=res/[name] \
 --outdir=public \
 #--watch \
 #--serve=4000 \

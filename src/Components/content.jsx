@@ -12,8 +12,9 @@ var handleChildInputChange = (vl) =>  valueSearch = vl
 const content = function(){
     return {
         view:( vnode )=>{
+            const {categorias, imageMap} = vnode.attrs
             window.scrollTo({top:0,behavior:'smooth'})
-            const dataFilter = filterForSearch(vnode.attrs['categorias'],valueSearch)
+            const dataFilter = filterForSearch(categorias,valueSearch)
             return (
             <main class={css({
                 maxW: '7xl',
@@ -84,6 +85,7 @@ const content = function(){
                                             precio={producto.precio}
                                             precio_unitario={producto.precio_unitario}
                                             nombre={producto.nombre}
+                                            imageMap={imageMap}
                                                 />
                                         ) ) }
                                 </div>]

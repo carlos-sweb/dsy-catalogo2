@@ -9,7 +9,8 @@ numeral.locale('es-cl')
 export default function(){
     return {
         view:(vnode)=>{
-            const {imagen,nombre,descripcion,colorText,precio,precio_unitario} = vnode.attrs
+           const {imagen,nombre,descripcion,colorText,precio,precio_unitario, imageMap} = vnode.attrs      
+
            return (
             <div class={css({
               bg: 'white',
@@ -30,7 +31,7 @@ export default function(){
                   justifyContent: 'center',
                   overflow: 'hidden'
                 })}>
-                    <img src={imagen} class={css({
+                    <img src={imageMap[imagen]} class={css({
                       maxW: 'full',
                       maxH: 'full',
                       objectFit: 'contain'
