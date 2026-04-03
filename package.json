@@ -22,7 +22,7 @@
     "share-api-polyfill": "^1.1.1"
   },
   "devDependencies": {
-    "@pandacss/dev": "^0.39.0",
+    "@pandacss/dev": "^1.9.1",
     "postcss": "^8.4.38"
   }
 }
