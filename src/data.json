@@ -21,25 +21,25 @@
 								{									
 									"nombre": "Bolsas Camiseta Mini",
 									"descripcion": "Tamaño compacto para compras pequeñas",
-									"precio": 650,									
+									"precio": 700,									
 									"imagen": "bolsa-mini.png"
 								},
 								{									
 									"nombre": "Bolsas Camiseta Mediana",
 									"descripcion": "Tamaño estándar para uso diario",
-									"precio": 750,									
+									"precio": 850,									
 									"imagen": "bolsa-mediana.png"
 								},
 								{									
 									"nombre": "Bolsas Camiseta Grande",
 									"descripcion": "Tamaño grande para mayor capacidad",
-									"precio": 1300,									
+									"precio": 1500,									
 									"imagen": "bolsa-grande.png"
 								},
 								{									
 									"nombre": "Bolsas Camiseta Jumbo",
 									"descripcion": "Tamaño extra grande para cargas pesadas",
-									"precio": 2300,									
+									"precio": 2500,									
 									"imagen": "bolsa-jumbo.png"
 								},								
 								{									
@@ -55,7 +55,7 @@
 								{									
 									"nombre": "Rollo Pull Pack",
 									"descripcion": "700 und, Sistema de rollo continuo",
-									"precio": 7000,
+									"precio": 7900,
 									"caracteristicas": [
 										"Cantidad: 700 unidades",
 										"Tipo: Rollo continuo"
@@ -76,8 +76,8 @@
 								{									
 									"nombre": "Bolsas Taco Manga",
 									"descripcion": "Manga con 10 paquetes de 100 unidades",
-									"precio": 4500,
-									"precio_unitario": 450,									
+									"precio": 4800,
+									"precio_unitario": 480,									
 									"imagen": "bolsa-taco-manga.png"
 								}								
 							]
@@ -122,16 +122,16 @@
 								},
 								{									
 									"nombre": "Vaso 500cc",
-									"descripcion": "50 und - Presentación grande",
-									"precio": 2000,
-									"precio_unitario":40,									
+									"descripcion": "25 und - Presentación grande",
+									"precio": 1300,
+									"precio_unitario":52,									
 									"imagen": "vaso-500cc.png"
 								},
 								{									
 									"nombre": "Vasos Términos 10 oz",
 									"descripcion": "25 und",
-									"precio": 1300,
-									"precio_unitario":52,									
+									"precio": 1500,
+									"precio_unitario":60,									
 									"imagen": "vaso-termico-10oz.png"
 								}							
 							]
@@ -152,7 +152,7 @@
 							"productos":[{									
 									"nombre": "Mentholatum - 12grs",
 									"descripcion":"Alivio Temporal De La Congestion Nasal, Picaduras De Insectos, Picazon",
-									"precio": 800,																		
+									"precio": 900,																		
 									"imagen": "mentholatum.png"
 								},{									
 									"nombre": "Maq. De Afeitar Gillete 2",
@@ -188,9 +188,9 @@
 							"productos": [								
 								{									
 									"nombre": "Cepillo colgate",
-									"descripcion": "Tira con 13 Unidades",
-									"precio": 4550,
-									"precio_unitario":350,									
+									"descripcion": "Tira con 14 Unidades",
+									"precio": 6300,
+									"precio_unitario":450,									
 									"imagen": "cepillo-colgate-13.png"
 								},
 								{									
@@ -202,13 +202,13 @@
 								{									
 									"nombre": "Crema dental pepsodent",
 									"descripcion": "Whitening 90 grs",
-									"precio": 950,																		
+									"precio": 1000,																		
 									"imagen": "crema-dental-pepsodent-whithing.png"
 								},
 								{									
 									"nombre": "Jabón LUX en barra ",
 									"descripcion": "70 grs PACK 4und",
-									"precio": 1600,
+									"precio": 450,
 									"precio_unitario":400,																		
 									"imagen": "jabon-lux-pack-4.png"
 								},																
@@ -221,7 +221,7 @@
 								{									
 									"nombre": "Test de Emabarzo",
 									"descripcion": "Rapido y Efectivo",
-									"precio": 700,									
+									"precio": 800,									
 									"imagen": "test-de-embarazo.png"
 								},
 								{									
@@ -231,29 +231,16 @@
 									"imagen": "toalla-humeda-babysec.png"
 								},
 								{									
-									"nombre": "Toalla LADYSOFT morada",
-									"descripcion": "Tela suave con alas - 8 und",
-									"precio": 1100,									
-									"imagen": "toalla-morada-tela-suave.png"
-								},
-								{									
 									"nombre": "Toalla LADYSOFT noche",
 									"descripcion": "Tela ultraseca con alas - 7 und",
 									"precio": 850,									
 									"imagen": "lady-soft-noche-ultraseca.png"
-								},
-								{									
-									"nombre": "Toalla LADYSOFT verde",
-									"descripcion": "8 und",
-									"precio": 850,									
-									"imagen": "lady-soft-normal-verde.png"
-								}
-								,
+								},																
 								{									
 									"nombre": "VAPORAL",
 									"descripcion": "12 und - Inhalador",
-									"precio": 1500,
-									"precio_unitario":125,									
+									"precio": 2000,
+									"precio_unitario":167,									
 									"imagen": "vaporal-12.png"
 								}
 							]
@@ -275,17 +262,10 @@
 								{									
 									"nombre": "Encendedor Ronson ClearLite",
 									"descripcion": "Encendedor premium - Display completo",
-									"precio": 3600,
-									"precio_unitario": 180,									
+									"precio": 3700,
+									"precio_unitario": 185,									
 									"imagen": "encendedor-ronson-display.png"
-								},
-								{									
-									"nombre": "Papel Fino Ronson",
-									"descripcion": "Papelillos rolling - Caja de 25 libritos",
-									"precio": 10000,
-									"precio_unitario": 400,
-									"imagen": "papel-fino-ronson.png"
-								},
+								},								
 								{									
 									"nombre": "Encendedor Lin económico",
 									"descripcion": "Encendedor - 5 variedades de color",
@@ -315,17 +295,11 @@
 									"precio":1700,
 									"precio_unitario":17,
 									"imagen": "parche-curita-cure-band.png"
-								},
+								},								
 								{									
-									"nombre":"Cinta Embalaje 100mts",
+									"nombre":"Cinta Embalaje 30mts",
 									"descripcion":"",
-									"precio":950,
-									"imagen": "cinta-de-embalaje-100mts.png"
-								},
-								{									
-									"nombre":"Cinta Embalaje 50mts",
-									"descripcion":"",
-									"precio":750,
+									"precio":550,
 									"imagen": "cinta-de-embalaje-50mts.png"
 								}
 							]
@@ -339,14 +313,7 @@
 									"precio": 2000,
 									"precio_unitario":166,									
 									"imagen": "chemmer-12.png"
-								},
-								{									
-									"nombre": "La Gotita",
-									"descripcion": "Lo que La Gotita pega, nada, nada lo despega",
-									"precio": 9900,
-									"precio_unitario":1650,									
-									"imagen": "la-gotita.png"
-								}
+								}								
 							]
 						}
 					]

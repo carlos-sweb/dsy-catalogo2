@@ -27,18 +27,13 @@ import img22 from './assets/jabon-lux-pack-4.png';
 import img23 from './assets/kingdom.png';
 import img24 from './assets/test-de-embarazo.png';
 import img25 from './assets/toalla-humeda-babysec.png';
-import img26 from './assets/toalla-morada-tela-suave.png';
-import img27 from './assets/lady-soft-noche-ultraseca.png';
-import img28 from './assets/lady-soft-normal-verde.png';
-import img29 from './assets/vaporal-12.png';
-import img30 from './assets/encendedor-ronson-display.png';
-import img31 from './assets/papel-fino-ronson.png';
-import img32 from './assets/pack-encendedor-lin.png';
-import img33 from './assets/parche-curita-cure-band.png';
-import img34 from './assets/cinta-de-embalaje-100mts.png';
-import img35 from './assets/cinta-de-embalaje-50mts.png';
-import img36 from './assets/chemmer-12.png';
-import img37 from './assets/la-gotita.png';
+import img26 from './assets/lady-soft-noche-ultraseca.png';
+import img27 from './assets/vaporal-12.png';
+import img28 from './assets/encendedor-ronson-display.png';
+import img29 from './assets/pack-encendedor-lin.png';
+import img30 from './assets/parche-curita-cure-band.png';
+import img31 from './assets/cinta-de-embalaje-50mts.png';
+import img32 from './assets/chemmer-12.png';
 
 export default {
   "bolsa-mini.png": img0,
@@ -67,16 +62,11 @@ export default {
   "kingdom.png": img23,
   "test-de-embarazo.png": img24,
   "toalla-humeda-babysec.png": img25,
-  "toalla-morada-tela-suave.png": img26,
-  "lady-soft-noche-ultraseca.png": img27,
-  "lady-soft-normal-verde.png": img28,
-  "vaporal-12.png": img29,
-  "encendedor-ronson-display.png": img30,
-  "papel-fino-ronson.png": img31,
-  "pack-encendedor-lin.png": img32,
-  "parche-curita-cure-band.png": img33,
-  "cinta-de-embalaje-100mts.png": img34,
-  "cinta-de-embalaje-50mts.png": img35,
-  "chemmer-12.png": img36,
-  "la-gotita.png": img37,
+  "lady-soft-noche-ultraseca.png": img26,
+  "vaporal-12.png": img27,
+  "encendedor-ronson-display.png": img28,
+  "pack-encendedor-lin.png": img29,
+  "parche-curita-cure-band.png": img30,
+  "cinta-de-embalaje-50mts.png": img31,
+  "chemmer-12.png": img32,
 };
