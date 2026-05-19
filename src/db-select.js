@@ -5,3 +5,4 @@ const result = db.query("select * from items LEFT JOIN categories ON items.categ
 //const result = db.query("select * from items").all();
 
 console.log(result)
+

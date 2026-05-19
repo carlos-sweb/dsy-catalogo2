@@ -13,8 +13,10 @@
   },
   "dependencies": {
     "@fontsource/poppins": "^5.2.7",
+    "@libsql/client": "^0.17.3",
     "chokidar": "^4.0.3",
     "clipboard": "^2.0.11",
+    "drizzle-orm": "^0.45.2",
     "lucide-mithril": "^1.0.2",
     "mithril": "^2.3.7",
     "numeral": "^2.0.6",
@@ -23,6 +25,7 @@
   },
   "devDependencies": {
     "@pandacss/dev": "^1.9.1",
+    "drizzle-kit": "^0.31.10",
     "postcss": "^8.4.38"
   }
 }
