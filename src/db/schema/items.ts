@@ -6,7 +6,7 @@ export const items = sqliteTable("items", {
     name: text("name").notNull(),
     description: text("description"),
     price: integer("price"),
-    quantity: integer("quantity"),
+    quantity: integer("quantity").default(1),
     image: text("image"),
     features: text("features"),
     category_id: integer("category_id")

@@ -1,16 +1,26 @@
-import { drizzle } from "drizzle-orm/bun-sqlite";
-import { sqliteTable, text, integer } from "drizzle-orm/sqlite-core";
-import {items} from "./src/db/schema/items.ts";
+import { drizzle } from "drizzle-orm/bun-sqlite"
+import { sqliteTable, text, integer } from "drizzle-orm/sqlite-core"
+import { sql } from "drizzle-orm";
+import { items } from "./src/db/schema/items.ts"
+import { Database } from "bun:sqlite"
 
-import { Database } from "bun:sqlite";
-
-
-const sqlite = new Database("src/data.sqlite3");
+const sqlite = new Database(process.env.DATABASE_URL);
 
 const db = drizzle(sqlite);
 
-
-const result = await db.select().from(items);
-
+const result = await db.select({
+    id : items.id,
+    name : items.name,
+    description : items.description,
+    price : items.price,
+    price_unit : sql<number>`${items.price} * ${items.quantity}`,
+    quantity : items.quantity ,
+    image : items.image,
+    features : items.features,
+    category_id : items.category_id
+})
+.from(items)
+.where(sql`${items.category_id} = 5`)
 
 console.log(result);
+console.log(result.length);

@@ -9,9 +9,7 @@ import content from './Components/content.jsx'
 import mdpContent from './Components/mdpContent.jsx'
 import footer from './Components/footer.jsx'
 
-
 import Mediosdepago from './pages/mdp.jsx'
-
 import data from './data.json' with { type: "json" }
 
 
