@@ -9,7 +9,8 @@
   "scripts": {
     "prepare": "panda codegen",
     "dev": "bun run server.ts",
-    "build": "bun run scripts/prepare-assets.js"
+    "build": "bun run scripts/prepare-assets.js",
+    "generate-sql":"bunx drizzle-kit generate"
   },
   "dependencies": {
     "@fontsource/poppins": "^5.2.7",
