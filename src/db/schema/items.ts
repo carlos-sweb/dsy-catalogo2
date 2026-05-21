@@ -1,5 +1,5 @@
 import { sqliteTable, integer, text } from "drizzle-orm/sqlite-core";
-import { categories } from "./categories";
+import { subcategories } from "./subcategories";
 
 export const items = sqliteTable("items", {
     id: integer("id").primaryKey(),
@@ -9,6 +9,6 @@ export const items = sqliteTable("items", {
     quantity: integer("quantity").default(1),
     image: text("image"),
     features: text("features"),
-    category_id: integer("category_id")
-        .references(() => categories.id),
+    category: integer("category")
+        .references(() => subcategories.id),
 });

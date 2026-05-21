@@ -6,8 +6,8 @@ CREATE TABLE `items` (
 	`quantity` integer DEFAULT 1,
 	`image` text,
 	`features` text,
-	`category_id` integer,
-	FOREIGN KEY (`category_id`) REFERENCES `categories`(`id`) ON UPDATE no action ON DELETE no action
+	`category` integer,
+	FOREIGN KEY (`category`) REFERENCES `subcategories`(`id`) ON UPDATE no action ON DELETE no action
 );
 --> statement-breakpoint
 CREATE TABLE `categories` (
@@ -16,8 +16,14 @@ CREATE TABLE `categories` (
 	`color_primary` text,
 	`color_secondary` text,
 	`color_text_bg` text,
-	`color_text_primary` text,
-	`sub_category_name` text
+	`color_text_primary` text
+);
+--> statement-breakpoint
+CREATE TABLE `subcategories` (
+	`id` integer PRIMARY KEY NOT NULL,
+	`name` text NOT NULL,
+	`category` integer,
+	FOREIGN KEY (`category`) REFERENCES `categories`(`id`) ON UPDATE no action ON DELETE no action
 );
 --> statement-breakpoint
 CREATE TABLE `mdp` (

@@ -1,0 +1,45 @@
+{
+     "site": {
+          "header": {
+               "title": "Catálogo",
+               "subtitle": "Productos de calidad para su negocio"
+          },
+          "footer": {
+               "copyright": "© 2026 Catálogo",
+               "aviso": "Todos los precios están sujetos a cambios sin previo aviso",
+               "link_text": "Medios de pago",
+               "link_url": "#!/medios-de-pago"
+          },
+          "content": []
+     },
+     "mdp": {
+          "header": {
+               "title": "Catálogo",
+               "subtitle": "Medios de Pago"
+          },
+          "footer": {
+               "copyright": "© 2026 Catálogo",
+               "aviso": "Todos los precios están sujetos a cambios sin previo aviso",
+               "link_text": "Volver al Catálogo",
+               "link_url": "#!/"
+          },
+          "content": [
+               {
+                    "id": 1,
+                    "bank": "Banco Scotiabank",
+                    "type": "CORRIENTE",
+                    "number": "990308082",
+                    "holder": "BAZAR Y PAQUETERIA DAISY MONTENEGRO E.I.R.L",
+                    "rut": "77.998.347-1"
+               },
+               {
+                    "id": 2,
+                    "bank": "Banco Estado",
+                    "type": "RUT",
+                    "number": "16088145",
+                    "holder": "DAISY NATALY MONTENEGRO VERA",
+                    "rut": "16.088.145-3"
+               }
+          ]
+     }
+}
